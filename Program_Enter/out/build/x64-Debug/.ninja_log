@@ -1,0 +1,5 @@
+# ninja log v6
+6	46	7553894245030392	CMakeFiles/RunADB	5c26f1496b260e9f
+816	1333	7553894253155772	LauncherApk.exe	bcad3470d9fc498b
+6	46	7553894245030392	C:/ADB_Programm/Program_Enter/out/build/x64-Debug/CMakeFiles/RunADB	5c26f1496b260e9f
+47	816	7553894245427843	CMakeFiles/LauncherApk.dir/main.cpp.obj	f47dbf3615aa2a12

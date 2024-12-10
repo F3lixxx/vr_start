@@ -1,0 +1,4 @@
+C:/ADB_Programm/Program_Enter/out/build/x64-Debug/CMakeFiles/LauncherApk.dir
+C:/ADB_Programm/Program_Enter/out/build/x64-Debug/CMakeFiles/RunADB.dir
+C:/ADB_Programm/Program_Enter/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/ADB_Programm/Program_Enter/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
