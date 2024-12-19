@@ -9,7 +9,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>409</width>
+    <width>414</width>
     <height>356</height>
    </rect>
   </property>
@@ -34,7 +34,7 @@
    </property>
    <layout class="QHBoxLayout" name="horizontalLayout">
     <item>
-     <widget class="QPushButton" name="pushButton">
+     <widget class="QPushButton" name="pb_openGame">
       <property name="styleSheet">
        <string notr="true">QPushButton {
     background-color: #f5f5f5; /* белый фон по умолчанию */
@@ -55,7 +55,7 @@ QPushButton:hover {
      </widget>
     </item>
     <item>
-     <widget class="QPushButton" name="pb_start">
+     <widget class="QPushButton" name="pb_init_new_device_game">
       <property name="styleSheet">
        <string notr="true">QPushButton {
     background-color: #4CAF50; /* Зелёный фон по умолчанию */
@@ -81,15 +81,15 @@ QPushButton:hover {
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>409</width>
-     <height>22</height>
+     <width>414</width>
+     <height>25</height>
     </rect>
    </property>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <tabstops>
-  <tabstop>pb_start</tabstop>
+  <tabstop>pb_init_new_device_game</tabstop>
  </tabstops>
  <resources/>
  <connections/>

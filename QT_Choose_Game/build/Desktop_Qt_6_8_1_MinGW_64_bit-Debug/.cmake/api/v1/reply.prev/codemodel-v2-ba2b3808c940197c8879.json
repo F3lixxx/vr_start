@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f55b57f3bbc346874586.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Choose_Game",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Choose_Game::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Choose_Game-Debug-cbfcf78f2308d864556f.json",
+					"name" : "Choose_Game",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Choose_Game_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Choose_Game_autogen-Debug-2b66024c9ec72f0d9b47.json",
+					"name" : "Choose_Game_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Choose_Game_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Choose_Game_autogen_timestamp_deps-Debug-0f1ae56f143fa3b5cf9f.json",
+					"name" : "Choose_Game_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "RunADB::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-RunADB-Debug-17e931a2e77285c1301b.json",
+					"name" : "RunADB",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/ADB_Programm/vr_start/QT_Choose_Game/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug",
+		"source" : "C:/ADB_Programm/vr_start/QT_Choose_Game"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

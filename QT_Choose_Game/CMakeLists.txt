@@ -30,7 +30,8 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(Choose_Game
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
-        resources.qrc
+        second_window.h second_window.cpp second_window.ui
+        apkfile.h apkfile.cpp apkfile.ui
     )
 
 else()

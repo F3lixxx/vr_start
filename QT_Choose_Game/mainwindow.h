@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include <cstdlib>
+#include "second_window.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -18,7 +19,10 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+    void open_window();
+
 private:
     Ui::MainWindow *ui;
+    second_window* sec_win;
 };
 #endif // MAINWINDOW_H
