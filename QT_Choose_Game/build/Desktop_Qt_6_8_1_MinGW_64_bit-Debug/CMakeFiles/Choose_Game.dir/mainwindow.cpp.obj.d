@@ -372,6 +372,8 @@ CMakeFiles/Choose_Game.dir/mainwindow.cpp.obj: \
  C:/Qt/6.8.1/mingw_64/include/QtGui/qcursor.h \
  C:/Qt/6.8.1/mingw_64/include/QtGui/qbitmap.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qtabwidget.h \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/QByteArray \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/qbytearray.h \
  C:\ADB_Programm\vr_start\QT_Choose_Game\second_window.h \
  C:\ADB_Programm\vr_start\QT_Choose_Game\apkfile.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/QProcess \
@@ -421,12 +423,14 @@ CMakeFiles/Choose_Game.dir/mainwindow.cpp.obj: \
  C:/Qt/6.8.1/mingw_64/include/QtGui/qguiapplication.h \
  C:/Qt/6.8.1/mingw_64/include/QtGui/qinputmethod.h \
  C:/Qt/6.8.1/mingw_64/include/QtGui/qguiapplication_platform.h \
- C:/Qt/6.8.1/mingw_64/include/QtWidgets/QHBoxLayout \
- C:/Qt/6.8.1/mingw_64/include/QtWidgets/qboxlayout.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/QGridLayout \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qgridlayout.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qlayout.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qlayoutitem.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qboxlayout.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qgridlayout.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/QHBoxLayout \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qboxlayout.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/QMainWindow \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/QMenuBar \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qmenubar.h \
@@ -434,7 +438,20 @@ CMakeFiles/Choose_Game.dir/mainwindow.cpp.obj: \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/QPushButton \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qpushbutton.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qabstractbutton.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/QSpacerItem \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qlayoutitem.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/QStatusBar \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qstatusbar.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/QTextEdit \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qtextedit.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qabstractscrollarea.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qframe.h \
+ C:/Qt/6.8.1/mingw_64/include/QtGui/qtextdocument.h \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/qurl.h \
+ C:/Qt/6.8.1/mingw_64/include/QtGui/qtextoption.h \
+ C:/Qt/6.8.1/mingw_64/include/QtGui/qtextcursor.h \
+ C:/Qt/6.8.1/mingw_64/include/QtGui/qtextformat.h \
+ C:/Qt/6.8.1/mingw_64/include/QtGui/qpen.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/QVBoxLayout \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/QWidget \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qwidget.h

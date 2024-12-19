@@ -21,10 +21,10 @@ void second_window::executeCommand(){
 
     QString connect_ip = ip + ":" + port;
 
-    ip_add->setProgram(adb);  // Устанавливаем программу
-    ip_add->setArguments(QStringList() << "connect" << connect_ip);  // Передаем аргументы
+        ip_add->setProgram(adb);  // Устанавливаем программу
+        ip_add->setArguments(QStringList() << "connect" << connect_ip);  // Передаем аргументы
 
-    ip_add->start();
+        ip_add->start();
 
     if (!ip_add->waitForStarted()) {
         qDebug() << "Can't start ADB:" << ip_add->errorString();

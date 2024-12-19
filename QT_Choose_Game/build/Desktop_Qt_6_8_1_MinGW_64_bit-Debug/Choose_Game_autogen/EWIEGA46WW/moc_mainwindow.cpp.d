@@ -2,6 +2,7 @@ C:/ADB_Programm/vr_start/QT_Choose_Game/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debu
   C:/ADB_Programm/vr_start/QT_Choose_Game/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/Choose_Game_autogen/moc_predefs.h \
   C:/ADB_Programm/vr_start/QT_Choose_Game/apkfile.h \
   C:/ADB_Programm/vr_start/QT_Choose_Game/second_window.h \
+  C:/Qt/6.8.1/mingw_64/include/QtCore/QByteArray \
   C:/Qt/6.8.1/mingw_64/include/QtCore/QDebug \
   C:/Qt/6.8.1/mingw_64/include/QtCore/QProcess \
   C:/Qt/6.8.1/mingw_64/include/QtCore/QString \

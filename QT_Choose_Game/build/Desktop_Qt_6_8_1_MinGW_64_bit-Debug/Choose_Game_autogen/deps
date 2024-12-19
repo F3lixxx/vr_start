@@ -12,6 +12,7 @@ Choose_Game_autogen/timestamp: \
 	C:/ADB_Programm/vr_start/QT_Choose_Game/mainwindow.h \
 	C:/ADB_Programm/vr_start/QT_Choose_Game/second_window.cpp \
 	C:/ADB_Programm/vr_start/QT_Choose_Game/second_window.h \
+	C:/Qt/6.8.1/mingw_64/include/QtCore/QByteArray \
 	C:/Qt/6.8.1/mingw_64/include/QtCore/QDebug \
 	C:/Qt/6.8.1/mingw_64/include/QtCore/QProcess \
 	C:/Qt/6.8.1/mingw_64/include/QtCore/QString \

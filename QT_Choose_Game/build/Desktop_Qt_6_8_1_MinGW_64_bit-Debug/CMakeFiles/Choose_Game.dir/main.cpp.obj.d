@@ -372,6 +372,8 @@ CMakeFiles/Choose_Game.dir/main.cpp.obj: \
  C:/Qt/6.8.1/mingw_64/include/QtGui/qcursor.h \
  C:/Qt/6.8.1/mingw_64/include/QtGui/qbitmap.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qtabwidget.h \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/QByteArray \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/qbytearray.h \
  C:\ADB_Programm\vr_start\QT_Choose_Game\second_window.h \
  C:\ADB_Programm\vr_start\QT_Choose_Game\apkfile.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/QProcess \

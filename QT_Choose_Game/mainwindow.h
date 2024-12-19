@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include <cstdlib>
+#include <QByteArray>
 #include "second_window.h"
 
 QT_BEGIN_NAMESPACE
@@ -20,6 +21,9 @@ public:
     ~MainWindow();
 
     void open_window();
+    void connected_devices();
+    void readOutput();
+    void readError();
 
 private:
     Ui::MainWindow *ui;

@@ -379,6 +379,8 @@ CMakeFiles/Choose_Game.dir/Choose_Game_autogen/mocs_compilation.cpp.obj: \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qtmochelpers.h \
  C:\ADB_Programm\vr_start\QT_Choose_Game\build\Desktop_Qt_6_8_1_MinGW_64_bit-Debug\Choose_Game_autogen\EWIEGA46WW/moc_mainwindow.cpp \
  C:/ADB_Programm/vr_start/QT_Choose_Game/mainwindow.h \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/QByteArray \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/qbytearray.h \
  C:/ADB_Programm/vr_start/QT_Choose_Game/second_window.h \
  C:/ADB_Programm/vr_start/QT_Choose_Game/apkfile.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/QDialog \
