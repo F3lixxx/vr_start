@@ -1,6 +1,7 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
-#include "second_window.h"
+// #include "second_window.h"
+// #include "add_new_devices.h"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -8,7 +9,9 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
     sec_win = new second_window(this);
-    connect(ui->pb_init_new_device_game, &QPushButton::clicked, this, &MainWindow::open_window);
+    add_device = new add_new_devices(this);
+    connect(ui->pb_init_new_device_game, &QPushButton::clicked, this, &MainWindow::window_install_device);
+    connect(ui->pb_openGame, &QPushButton::clicked, this, &MainWindow::window_choose_game);
     connect(ui->pb_devices, &QPushButton::clicked, this, &MainWindow::connected_devices);
 
 }
@@ -65,8 +68,21 @@ void MainWindow::readError() {
     }
 }
 
-void MainWindow::open_window(){
+void MainWindow::window_install_device(){
     sec_win->show();
+}
+
+void MainWindow::data_base(){
+
+        qDebug() << "Data Base created!";
+        add_new_devices command;
+        command.add_dev();
+        return;
+
+}
+
+void MainWindow::window_choose_game(){
+    add_device->show();
 }
 
 MainWindow::~MainWindow()

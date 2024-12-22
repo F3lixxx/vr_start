@@ -36,12 +36,16 @@
          <string/>
         </property>
         <property name="placeholderText">
-         <string/>
+         <string>IP</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QLineEdit" name="le_Port"/>
+       <widget class="QLineEdit" name="le_Port">
+        <property name="placeholderText">
+         <string>Port</string>
+        </property>
+       </widget>
       </item>
      </layout>
     </item>

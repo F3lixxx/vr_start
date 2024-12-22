@@ -1,7 +1,7 @@
 CMakeFiles/Choose_Game.dir/Choose_Game_autogen/mocs_compilation.cpp.obj: \
  C:\ADB_Programm\vr_start\QT_Choose_Game\build\Desktop_Qt_6_8_1_MinGW_64_bit-Debug\Choose_Game_autogen\mocs_compilation.cpp \
- C:\ADB_Programm\vr_start\QT_Choose_Game\build\Desktop_Qt_6_8_1_MinGW_64_bit-Debug\Choose_Game_autogen\EWIEGA46WW/moc_apkfile.cpp \
- C:/ADB_Programm/vr_start/QT_Choose_Game/apkfile.h \
+ C:\ADB_Programm\vr_start\QT_Choose_Game\build\Desktop_Qt_6_8_1_MinGW_64_bit-Debug\Choose_Game_autogen\EWIEGA46WW/moc_add_new_devices.cpp \
+ C:/ADB_Programm/vr_start/QT_Choose_Game/add_new_devices.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/QMainWindow \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qmainwindow.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -373,10 +373,69 @@ CMakeFiles/Choose_Game.dir/Choose_Game_autogen/mocs_compilation.cpp.obj: \
  C:/Qt/6.8.1/mingw_64/include/QtGui/qcursor.h \
  C:/Qt/6.8.1/mingw_64/include/QtGui/qbitmap.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qtabwidget.h \
+ C:/Qt/6.8.1/mingw_64/include/QtSql/QSqlDatabase \
+ C:/Qt/6.8.1/mingw_64/include/QtSql/qsqldatabase.h \
+ C:/Qt/6.8.1/mingw_64/include/QtSql/qtsqlglobal.h \
+ C:/Qt/6.8.1/mingw_64/include/QtSql/qtsql-config.h \
+ C:/Qt/6.8.1/mingw_64/include/QtSql/qtsqlexports.h \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/qmetaobject.h \
+ C:/Qt/6.8.1/mingw_64/include/QtSql/QSqlQuery \
+ C:/Qt/6.8.1/mingw_64/include/QtSql/qsqlquery.h \
+ C:/Qt/6.8.1/mingw_64/include/QtSql/qsqldatabase.h \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/QString \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/qstring.h \
+ C:/Qt/6.8.1/mingw_64/include/QtSql/QSqlRecord \
+ C:/Qt/6.8.1/mingw_64/include/QtSql/qsqlrecord.h \
+ C:/Qt/6.8.1/mingw_64/include/QtSql/QSqlError \
+ C:/Qt/6.8.1/mingw_64/include/QtSql/qsqlerror.h \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/QDir \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/qdir.h \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/qdirlisting.h \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/qfiledevice.h \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/qiodevice.h \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/qdatetime.h \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/qcalendar.h \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/qlocale.h \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/qfile.h \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/filesystem \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_fwd.h \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_path.h \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/locale \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.h \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwctype \
+ C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wctype.h \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.tcc \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets_nonio.h \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/time_members.h \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/messages_members.h \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/codecvt.h \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets_nonio.tcc \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_conv.h \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iomanip \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/quoted_string.h \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/sstream \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ios \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.h \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.tcc \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream.tcc \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/sstream.tcc \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/codecvt \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_dir.h \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_ops.h \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/qfileinfo.h \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/qtimezone.h \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/QDebug \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/qdebug.h \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/qtmochelpers.h \
+ C:\ADB_Programm\vr_start\QT_Choose_Game\build\Desktop_Qt_6_8_1_MinGW_64_bit-Debug\Choose_Game_autogen\EWIEGA46WW/moc_apkfile.cpp \
+ C:/ADB_Programm/vr_start/QT_Choose_Game/apkfile.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/QProcess \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qprocess.h \
- C:/Qt/6.8.1/mingw_64/include/QtCore/qiodevice.h \
- C:/Qt/6.8.1/mingw_64/include/QtCore/qtmochelpers.h \
  C:\ADB_Programm\vr_start\QT_Choose_Game\build\Desktop_Qt_6_8_1_MinGW_64_bit-Debug\Choose_Game_autogen\EWIEGA46WW/moc_mainwindow.cpp \
  C:/ADB_Programm/vr_start/QT_Choose_Game/mainwindow.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/QByteArray \
@@ -389,28 +448,10 @@ CMakeFiles/Choose_Game.dir/Choose_Game_autogen/mocs_compilation.cpp.obj: \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qmessagebox.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qdialog.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qdialogbuttonbox.h \
- C:/Qt/6.8.1/mingw_64/include/QtCore/QString \
- C:/Qt/6.8.1/mingw_64/include/QtCore/qstring.h \
- C:/Qt/6.8.1/mingw_64/include/QtCore/QDebug \
- C:/Qt/6.8.1/mingw_64/include/QtCore/qdebug.h \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream \
- C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream \
- C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ios \
- C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.h \
- C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.h \
- C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwctype \
- C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wctype.h \
- C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
- C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
- C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.tcc \
- C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.tcc \
- C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream.tcc \
- C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
- C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc \
  C:/Qt/6.8.1/mingw_64/include/QtGui/QIntValidator \
  C:/Qt/6.8.1/mingw_64/include/QtGui/qvalidator.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qregularexpression.h \
- C:/Qt/6.8.1/mingw_64/include/QtCore/qlocale.h \
  C:/Qt/6.8.1/mingw_64/include/QtGui/QRegularExpressionValidator \
  C:\ADB_Programm\vr_start\QT_Choose_Game\build\Desktop_Qt_6_8_1_MinGW_64_bit-Debug\Choose_Game_autogen\EWIEGA46WW/moc_second_window.cpp \
  C:/ADB_Programm/vr_start/QT_Choose_Game/second_window.h

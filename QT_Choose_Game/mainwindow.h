@@ -5,6 +5,7 @@
 #include <cstdlib>
 #include <QByteArray>
 #include "second_window.h"
+#include "add_new_devices.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -19,8 +20,15 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
+//PushButton start
+    void window_install_device();
+    void window_choose_game();
+//end
 
-    void open_window();
+//add database
+    void data_base();
+//
+
     void connected_devices();
     void readOutput();
     void readError();
@@ -28,5 +36,6 @@ public:
 private:
     Ui::MainWindow *ui;
     second_window* sec_win;
+    add_new_devices* add_device;
 };
 #endif // MAINWINDOW_H

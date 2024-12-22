@@ -18,6 +18,8 @@ endif()
 
 find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
+find_package(Qt6 REQUIRED COMPONENTS Sql)
+
 
 set(PROJECT_SOURCES
         main.cpp
@@ -32,6 +34,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         ${PROJECT_SOURCES}
         second_window.h second_window.cpp second_window.ui
         apkfile.h apkfile.cpp apkfile.ui
+        add_new_devices.h add_new_devices.cpp add_new_devices.ui
     )
 
 else()
@@ -48,6 +51,7 @@ else()
 endif()
 
 target_link_libraries(Choose_Game PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
+target_link_libraries(Choose_Game PRIVATE Qt6::Sql)
 
 if(${QT_VERSION} VERSION_LESS 6.1.0)
   set(BUNDLE_ID_OPTION MACOSX_BUNDLE_GUI_IDENTIFIER com.example.Choose_Game)
@@ -59,6 +63,7 @@ set_target_properties(Choose_Game PROPERTIES
     MACOSX_BUNDLE TRUE
     WIN32_EXECUTABLE TRUE
 )
+
 
 include(GNUInstallDirs)
 install(TARGETS Choose_Game

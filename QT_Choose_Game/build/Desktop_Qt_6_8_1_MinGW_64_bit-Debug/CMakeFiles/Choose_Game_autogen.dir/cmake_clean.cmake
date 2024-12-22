@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Choose_Game_autogen"
+  "Choose_Game_autogen/include/ui_add_new_devices.h"
   "Choose_Game_autogen/include/ui_apkfile.h"
   "Choose_Game_autogen/include/ui_mainwindow.h"
   "Choose_Game_autogen/include/ui_second_window.h"

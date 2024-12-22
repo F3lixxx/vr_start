@@ -4,6 +4,8 @@ file(REMOVE_RECURSE
   "Choose_Game_autogen"
   "CMakeFiles/Choose_Game.dir/Choose_Game_autogen/mocs_compilation.cpp.obj"
   "CMakeFiles/Choose_Game.dir/Choose_Game_autogen/mocs_compilation.cpp.obj.d"
+  "CMakeFiles/Choose_Game.dir/add_new_devices.cpp.obj"
+  "CMakeFiles/Choose_Game.dir/add_new_devices.cpp.obj.d"
   "CMakeFiles/Choose_Game.dir/apkfile.cpp.obj"
   "CMakeFiles/Choose_Game.dir/apkfile.cpp.obj.d"
   "CMakeFiles/Choose_Game.dir/main.cpp.obj"
