@@ -1,7 +1,5 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
-// #include "second_window.h"
-// #include "add_new_devices.h"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -22,6 +20,7 @@ void MainWindow::connected_devices(){
       QString adb = "C:\\platform-tools\\adb.exe";
       devices->setProgram(adb);  // Устанавливаем программу
       devices->setArguments(QStringList() << "devices" );  // Передаем аргументы
+      // devices->setArguments(QStringList() << "tcpip" << "5555");
 
       devices->start();
 
@@ -70,15 +69,6 @@ void MainWindow::readError() {
 
 void MainWindow::window_install_device(){
     sec_win->show();
-}
-
-void MainWindow::data_base(){
-
-        qDebug() << "Data Base created!";
-        add_new_devices command;
-        command.add_dev();
-        return;
-
 }
 
 void MainWindow::window_choose_game(){

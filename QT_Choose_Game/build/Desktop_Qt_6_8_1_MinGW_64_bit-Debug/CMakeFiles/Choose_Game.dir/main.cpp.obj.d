@@ -448,8 +448,8 @@ CMakeFiles/Choose_Game.dir/main.cpp.obj: \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_ops.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qfileinfo.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qtimezone.h \
- C:/Qt/6.8.1/mingw_64/include/QtWidgets/QApplication \
- C:/Qt/6.8.1/mingw_64/include/QtWidgets/qapplication.h \
+ C:\ADB_Programm\vr_start\QT_Choose_Game\getdeviceip.h \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/QCoreApplication \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qcoreapplication.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qcoreevent.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qdeadlinetimer.h \
@@ -457,12 +457,13 @@ CMakeFiles/Choose_Game.dir/main.cpp.obj: \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qeventloop.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qnativeinterface.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qcoreapplication_platform.h \
- C:/Qt/6.8.1/mingw_64/include/QtGui/qguiapplication.h \
- C:/Qt/6.8.1/mingw_64/include/QtGui/qinputmethod.h \
- C:/Qt/6.8.1/mingw_64/include/QtGui/qguiapplication_platform.h \
- C:/Qt/6.8.1/mingw_64/include/QtCore/QCoreApplication \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qcoreapplication.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/QTextStream \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qtextstream.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/QRegularExpression \
- C:/Qt/6.8.1/mingw_64/include/QtCore/qregularexpression.h
+ C:/Qt/6.8.1/mingw_64/include/QtCore/qregularexpression.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/QApplication \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qapplication.h \
+ C:/Qt/6.8.1/mingw_64/include/QtGui/qguiapplication.h \
+ C:/Qt/6.8.1/mingw_64/include/QtGui/qinputmethod.h \
+ C:/Qt/6.8.1/mingw_64/include/QtGui/qguiapplication_platform.h

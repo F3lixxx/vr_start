@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-822136748cbbb64563f6.json",
+					"jsonFile" : "directory-.-Debug-359945a8a787af811145.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -46,7 +46,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Choose_Game::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Choose_Game-Debug-9896df18bb74811b1565.json",
+					"jsonFile" : "target-Choose_Game-Debug-475d95c7160885307070.json",
 					"name" : "Choose_Game",
 					"projectIndex" : 0
 				},
@@ -67,7 +67,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "RunADB::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-RunADB-Debug-15700d17ffd46a693fb3.json",
+					"jsonFile" : "target-RunADB-Debug-d0fd76ca38fddb7f8349.json",
 					"name" : "RunADB",
 					"projectIndex" : 0
 				}

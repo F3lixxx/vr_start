@@ -10,6 +10,7 @@
 #include <QSqlError>
 #include <QDir>
 #include <QDebug>
+#include "getdeviceip.h"
 
 namespace Ui {
 class add_new_devices;
@@ -24,11 +25,12 @@ public:
     ~add_new_devices();
 
     void add_dev();
-    void add_device(const QString &name, int ip, int port);
+    void add_device(const getIP& getip);
     void choose_device();
 
 private:
     Ui::add_new_devices *ui;
+    QSqlDatabase addDevices;
 };
 
 #endif // ADD_NEW_DEVICES_H

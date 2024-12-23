@@ -8,6 +8,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Choose_Game.dir/add_new_devices.cpp.obj.d"
   "CMakeFiles/Choose_Game.dir/apkfile.cpp.obj"
   "CMakeFiles/Choose_Game.dir/apkfile.cpp.obj.d"
+  "CMakeFiles/Choose_Game.dir/getdeviceip.cpp.obj"
+  "CMakeFiles/Choose_Game.dir/getdeviceip.cpp.obj.d"
   "CMakeFiles/Choose_Game.dir/main.cpp.obj"
   "CMakeFiles/Choose_Game.dir/main.cpp.obj.d"
   "CMakeFiles/Choose_Game.dir/mainwindow.cpp.obj"

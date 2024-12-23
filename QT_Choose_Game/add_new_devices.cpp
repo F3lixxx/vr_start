@@ -1,5 +1,6 @@
 #include "add_new_devices.h"
 #include "ui_add_new_devices.h"
+#include "getdeviceip.h"
 
 add_new_devices::add_new_devices(QWidget *parent)
     : QMainWindow(parent)
@@ -9,16 +10,21 @@ add_new_devices::add_new_devices(QWidget *parent)
     connect(ui->pb_add_device, &QPushButton::clicked, this, &add_new_devices::add_dev);
 }
 
+void add_new_devices::add_dev() {
+    getIP device; // Создаем объект getIP, который автоматически заполнит данные
+    add_device(device); // Передаем объект в метод добавления
+}
 
-void add_new_devices::add_device(const QString &name, int ip, int port){
-    QSqlDatabase sdb = QSqlDatabase::addDatabase("QSQLITE");
+void add_new_devices::add_device(const getIP& device){
 
-    sdb.setDatabaseName("device_table.sqlite");
+    addDevices = QSqlDatabase::addDatabase("QSQLITE");
 
-    qDebug() << "Current Path to Data Base: " << QDir::currentPath();
+    addDevices.setDatabaseName("device_table.sqlite");
 
-    if(!sdb.open()){
-        qDebug() << sdb.lastError().text();
+    // qDebug() << "Current Path to Data Base: " << QDir::currentPath();
+
+    if(!addDevices.open()){
+        qDebug() << addDevices.lastError().text();
         return;
     }
 
@@ -38,9 +44,9 @@ void add_new_devices::add_device(const QString &name, int ip, int port){
     // Вставляем данные в таблицу Devices
     QString str_insert = "INSERT INTO Devices(Name, IP, Port) VALUES (:Name, :IP, :Port);";
     a_query.prepare(str_insert);
-    a_query.bindValue(":Name", name);  // Привязываем значения
-    a_query.bindValue(":IP", ip);
-    a_query.bindValue(":Port", port);
+    a_query.bindValue(":Name", device.getName());  // Привязываем значения
+    a_query.bindValue(":IP", device.getip());
+    a_query.bindValue(":Port", device.port());
 
     b = a_query.exec();
     if (!b) {
@@ -50,14 +56,6 @@ void add_new_devices::add_device(const QString &name, int ip, int port){
 
     qDebug() << "Device added successfully!";
     QSqlRecord rec = a_query.record();
-}
-
-void add_new_devices::add_dev(){
-    QString dev_name = ui->le_name->text();
-    int IP = ui->le_IP->text().toInt();
-    int Port = ui->le_port->text().toInt();
-
-    add_device(dev_name, IP, Port);
 }
 
 add_new_devices::~add_new_devices()

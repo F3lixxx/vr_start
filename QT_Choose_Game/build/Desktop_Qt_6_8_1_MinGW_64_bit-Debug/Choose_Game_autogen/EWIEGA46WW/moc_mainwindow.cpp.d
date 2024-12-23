@@ -2,12 +2,16 @@ C:/ADB_Programm/vr_start/QT_Choose_Game/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debu
   C:/ADB_Programm/vr_start/QT_Choose_Game/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/Choose_Game_autogen/moc_predefs.h \
   C:/ADB_Programm/vr_start/QT_Choose_Game/add_new_devices.h \
   C:/ADB_Programm/vr_start/QT_Choose_Game/apkfile.h \
+  C:/ADB_Programm/vr_start/QT_Choose_Game/getdeviceip.h \
   C:/ADB_Programm/vr_start/QT_Choose_Game/second_window.h \
   C:/Qt/6.8.1/mingw_64/include/QtCore/QByteArray \
+  C:/Qt/6.8.1/mingw_64/include/QtCore/QCoreApplication \
   C:/Qt/6.8.1/mingw_64/include/QtCore/QDebug \
   C:/Qt/6.8.1/mingw_64/include/QtCore/QDir \
   C:/Qt/6.8.1/mingw_64/include/QtCore/QProcess \
+  C:/Qt/6.8.1/mingw_64/include/QtCore/QRegularExpression \
   C:/Qt/6.8.1/mingw_64/include/QtCore/QString \
+  C:/Qt/6.8.1/mingw_64/include/QtCore/QTextStream \
   C:/Qt/6.8.1/mingw_64/include/QtCore/q20functional.h \
   C:/Qt/6.8.1/mingw_64/include/QtCore/q20iterator.h \
   C:/Qt/6.8.1/mingw_64/include/QtCore/q20memory.h \
@@ -39,13 +43,19 @@ C:/ADB_Programm/vr_start/QT_Choose_Game/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debu
   C:/Qt/6.8.1/mingw_64/include/QtCore/qcontainerinfo.h \
   C:/Qt/6.8.1/mingw_64/include/QtCore/qcontainertools_impl.h \
   C:/Qt/6.8.1/mingw_64/include/QtCore/qcontiguouscache.h \
+  C:/Qt/6.8.1/mingw_64/include/QtCore/qcoreapplication.h \
+  C:/Qt/6.8.1/mingw_64/include/QtCore/qcoreapplication_platform.h \
+  C:/Qt/6.8.1/mingw_64/include/QtCore/qcoreevent.h \
   C:/Qt/6.8.1/mingw_64/include/QtCore/qdarwinhelpers.h \
   C:/Qt/6.8.1/mingw_64/include/QtCore/qdatastream.h \
   C:/Qt/6.8.1/mingw_64/include/QtCore/qdatetime.h \
+  C:/Qt/6.8.1/mingw_64/include/QtCore/qdeadlinetimer.h \
   C:/Qt/6.8.1/mingw_64/include/QtCore/qdebug.h \
   C:/Qt/6.8.1/mingw_64/include/QtCore/qdir.h \
   C:/Qt/6.8.1/mingw_64/include/QtCore/qdirlisting.h \
+  C:/Qt/6.8.1/mingw_64/include/QtCore/qelapsedtimer.h \
   C:/Qt/6.8.1/mingw_64/include/QtCore/qendian.h \
+  C:/Qt/6.8.1/mingw_64/include/QtCore/qeventloop.h \
   C:/Qt/6.8.1/mingw_64/include/QtCore/qexceptionhandling.h \
   C:/Qt/6.8.1/mingw_64/include/QtCore/qfile.h \
   C:/Qt/6.8.1/mingw_64/include/QtCore/qfiledevice.h \
@@ -78,6 +88,7 @@ C:/ADB_Programm/vr_start/QT_Choose_Game/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debu
   C:/Qt/6.8.1/mingw_64/include/QtCore/qmetatype.h \
   C:/Qt/6.8.1/mingw_64/include/QtCore/qminmax.h \
   C:/Qt/6.8.1/mingw_64/include/QtCore/qnamespace.h \
+  C:/Qt/6.8.1/mingw_64/include/QtCore/qnativeinterface.h \
   C:/Qt/6.8.1/mingw_64/include/QtCore/qnumeric.h \
   C:/Qt/6.8.1/mingw_64/include/QtCore/qobject.h \
   C:/Qt/6.8.1/mingw_64/include/QtCore/qobject_impl.h \

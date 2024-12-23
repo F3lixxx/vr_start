@@ -35,6 +35,8 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         second_window.h second_window.cpp second_window.ui
         apkfile.h apkfile.cpp apkfile.ui
         add_new_devices.h add_new_devices.cpp add_new_devices.ui
+        getdeviceip.h
+        getdeviceip.cpp
     )
 
 else()

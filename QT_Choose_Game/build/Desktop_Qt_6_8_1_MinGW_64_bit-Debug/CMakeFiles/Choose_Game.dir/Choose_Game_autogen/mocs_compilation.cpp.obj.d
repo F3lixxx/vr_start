@@ -431,11 +431,25 @@ CMakeFiles/Choose_Game.dir/Choose_Game_autogen/mocs_compilation.cpp.obj: \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qtimezone.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/QDebug \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qdebug.h \
+ C:/ADB_Programm/vr_start/QT_Choose_Game/getdeviceip.h \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/QCoreApplication \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/qcoreapplication.h \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/qcoreevent.h \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/qdeadlinetimer.h \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/qelapsedtimer.h \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/qeventloop.h \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/qnativeinterface.h \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/qcoreapplication_platform.h \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/qcoreapplication.h \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/QProcess \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/qprocess.h \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/QTextStream \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/qtextstream.h \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/QRegularExpression \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/qregularexpression.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qtmochelpers.h \
  C:\ADB_Programm\vr_start\QT_Choose_Game\build\Desktop_Qt_6_8_1_MinGW_64_bit-Debug\Choose_Game_autogen\EWIEGA46WW/moc_apkfile.cpp \
  C:/ADB_Programm/vr_start/QT_Choose_Game/apkfile.h \
- C:/Qt/6.8.1/mingw_64/include/QtCore/QProcess \
- C:/Qt/6.8.1/mingw_64/include/QtCore/qprocess.h \
  C:\ADB_Programm\vr_start\QT_Choose_Game\build\Desktop_Qt_6_8_1_MinGW_64_bit-Debug\Choose_Game_autogen\EWIEGA46WW/moc_mainwindow.cpp \
  C:/ADB_Programm/vr_start/QT_Choose_Game/mainwindow.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/QByteArray \

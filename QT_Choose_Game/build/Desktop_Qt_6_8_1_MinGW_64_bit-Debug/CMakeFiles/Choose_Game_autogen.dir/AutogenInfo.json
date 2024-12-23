@@ -367,6 +367,12 @@
 			null
 		],
 		[
+			"C:/ADB_Programm/vr_start/QT_Choose_Game/getdeviceip.h",
+			"MU",
+			"EWIEGA46WW/moc_getdeviceip.cpp",
+			null
+		],
+		[
 			"C:/ADB_Programm/vr_start/QT_Choose_Game/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
@@ -458,6 +464,7 @@
 			null
 		],
 		[ "C:/ADB_Programm/vr_start/QT_Choose_Game/apkfile.cpp", "MU", null ],
+		[ "C:/ADB_Programm/vr_start/QT_Choose_Game/getdeviceip.cpp", "MU", null ],
 		[ "C:/ADB_Programm/vr_start/QT_Choose_Game/main.cpp", "MU", null ],
 		[ "C:/ADB_Programm/vr_start/QT_Choose_Game/mainwindow.cpp", "MU", null ],
 		[
