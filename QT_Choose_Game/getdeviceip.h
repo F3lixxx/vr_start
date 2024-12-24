@@ -16,7 +16,7 @@ public:
     int port() const;
 
 private:
-    QString nameDev = "Xiaomi";
+    QString nameDev;
     QString ip;
     int portDev;
 };

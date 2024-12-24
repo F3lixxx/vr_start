@@ -25,9 +25,6 @@ public:
     void window_choose_game();
 //end
 
-//add database
-    void data_base();
-//
 
     void connected_devices();
     void readOutput();

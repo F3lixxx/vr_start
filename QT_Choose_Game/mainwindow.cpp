@@ -8,10 +8,9 @@ MainWindow::MainWindow(QWidget *parent)
     ui->setupUi(this);
     sec_win = new second_window(this);
     add_device = new add_new_devices(this);
-    connect(ui->pb_init_new_device_game, &QPushButton::clicked, this, &MainWindow::window_install_device);
-    connect(ui->pb_openGame, &QPushButton::clicked, this, &MainWindow::window_choose_game);
+    connect(ui->pb_choose_device, &QPushButton::clicked, this, &MainWindow::window_choose_game);
+    connect(ui->pb_check_new_device, &QPushButton::clicked, this, &MainWindow::window_install_device);
     connect(ui->pb_devices, &QPushButton::clicked, this, &MainWindow::connected_devices);
-
 }
 
 void MainWindow::connected_devices(){
@@ -20,7 +19,6 @@ void MainWindow::connected_devices(){
       QString adb = "C:\\platform-tools\\adb.exe";
       devices->setProgram(adb);  // Устанавливаем программу
       devices->setArguments(QStringList() << "devices" );  // Передаем аргументы
-      // devices->setArguments(QStringList() << "tcpip" << "5555");
 
       devices->start();
 
@@ -46,6 +44,12 @@ void MainWindow::readOutput() {
         QByteArray output = process->readAllStandardOutput();
         QString outputStr = QString::fromUtf8(output);
 
+        process->start("adb",  QStringList() << "shell" << "dumpsys" << "battery");
+        if (!process->waitForFinished()) {
+            qWarning() << "Команда для получения модели устройства не выполнена!";
+            return;
+        }
+
         // Ищем строку с уровнем заряда
         QStringList lines = outputStr.split("\n");
         for (const QString &line : lines) {
@@ -68,11 +72,11 @@ void MainWindow::readError() {
 }
 
 void MainWindow::window_install_device(){
-    sec_win->show();
+    connect(ui->pb_check_new_device, &QPushButton::clicked, add_device, &add_new_devices::add_dev);
 }
 
 void MainWindow::window_choose_game(){
-    add_device->show();
+    sec_win->show();
 }
 
 MainWindow::~MainWindow()

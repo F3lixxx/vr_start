@@ -454,33 +454,17 @@ CMakeFiles/Choose_Game.dir/add_new_devices.cpp.obj: \
  C:/Qt/6.8.1/mingw_64/include/QtGui/qguiapplication.h \
  C:/Qt/6.8.1/mingw_64/include/QtGui/qinputmethod.h \
  C:/Qt/6.8.1/mingw_64/include/QtGui/qguiapplication_platform.h \
- C:/Qt/6.8.1/mingw_64/include/QtWidgets/QGridLayout \
- C:/Qt/6.8.1/mingw_64/include/QtWidgets/qgridlayout.h \
- C:/Qt/6.8.1/mingw_64/include/QtWidgets/qlayout.h \
- C:/Qt/6.8.1/mingw_64/include/QtWidgets/qlayoutitem.h \
- C:/Qt/6.8.1/mingw_64/include/QtWidgets/qboxlayout.h \
- C:/Qt/6.8.1/mingw_64/include/QtWidgets/qgridlayout.h \
- C:/Qt/6.8.1/mingw_64/include/QtWidgets/QLineEdit \
- C:/Qt/6.8.1/mingw_64/include/QtWidgets/qlineedit.h \
- C:/Qt/6.8.1/mingw_64/include/QtWidgets/qframe.h \
- C:/Qt/6.8.1/mingw_64/include/QtGui/qtextcursor.h \
- C:/Qt/6.8.1/mingw_64/include/QtGui/qtextdocument.h \
- C:/Qt/6.8.1/mingw_64/include/QtCore/qurl.h \
- C:/Qt/6.8.1/mingw_64/include/QtGui/qtextformat.h \
- C:/Qt/6.8.1/mingw_64/include/QtGui/qpen.h \
- C:/Qt/6.8.1/mingw_64/include/QtGui/qtextoption.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/QMainWindow \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/QMenuBar \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qmenubar.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qmenu.h \
- C:/Qt/6.8.1/mingw_64/include/QtWidgets/QPushButton \
- C:/Qt/6.8.1/mingw_64/include/QtWidgets/qpushbutton.h \
- C:/Qt/6.8.1/mingw_64/include/QtWidgets/qabstractbutton.h \
- C:/Qt/6.8.1/mingw_64/include/QtWidgets/QSpacerItem \
- C:/Qt/6.8.1/mingw_64/include/QtWidgets/qlayoutitem.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/QStatusBar \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qstatusbar.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/QVBoxLayout \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qboxlayout.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qlayout.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qlayoutitem.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qboxlayout.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qgridlayout.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/QWidget \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qwidget.h

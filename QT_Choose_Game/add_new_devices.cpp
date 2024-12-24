@@ -7,7 +7,6 @@ add_new_devices::add_new_devices(QWidget *parent)
     , ui(new Ui::add_new_devices)
 {
     ui->setupUi(this);
-    connect(ui->pb_add_device, &QPushButton::clicked, this, &add_new_devices::add_dev);
 }
 
 void add_new_devices::add_dev() {
@@ -20,8 +19,6 @@ void add_new_devices::add_device(const getIP& device){
     addDevices = QSqlDatabase::addDatabase("QSQLITE");
 
     addDevices.setDatabaseName("device_table.sqlite");
-
-    // qDebug() << "Current Path to Data Base: " << QDir::currentPath();
 
     if(!addDevices.open()){
         qDebug() << addDevices.lastError().text();
@@ -56,6 +53,8 @@ void add_new_devices::add_device(const getIP& device){
 
     qDebug() << "Device added successfully!";
     QSqlRecord rec = a_query.record();
+
+    addDevices.close();
 }
 
 add_new_devices::~add_new_devices()
