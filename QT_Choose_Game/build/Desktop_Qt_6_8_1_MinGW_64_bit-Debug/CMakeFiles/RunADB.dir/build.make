@@ -43,19 +43,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Qt\Tools\CMake_64\bin\cmake.exe
+CMAKE_COMMAND = "C:\Program Files\CMake\bin\cmake.exe"
 
 # The command to remove a file.
-RM = C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f
+RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\ADB_Programm\vr_start\QT_Choose_Game
+CMAKE_SOURCE_DIR = C:\Users\User\Documents\QT_Projects\vr_start\QT_Choose_Game
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\ADB_Programm\vr_start\QT_Choose_Game\build\Desktop_Qt_6_8_1_MinGW_64_bit-Debug
+CMAKE_BINARY_DIR = C:\Users\User\Documents\QT_Projects\vr_start\QT_Choose_Game\build\Desktop_Qt_6_8_1_MinGW_64_bit-Debug
 
 # Utility rule file for RunADB.
 
@@ -66,7 +66,7 @@ include CMakeFiles/RunADB.dir/compiler_depend.make
 include CMakeFiles/RunADB.dir/progress.make
 
 CMakeFiles/RunADB:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\ADB_Programm\vr_start\QT_Choose_Game\build\Desktop_Qt_6_8_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running ADB To check connected devices"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\User\Documents\QT_Projects\vr_start\QT_Choose_Game\build\Desktop_Qt_6_8_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running ADB To check connected devices"
 	C:\platform-tools\adb.exe devices
 
 RunADB: CMakeFiles/RunADB
@@ -82,6 +82,6 @@ CMakeFiles/RunADB.dir/clean:
 .PHONY : CMakeFiles/RunADB.dir/clean
 
 CMakeFiles/RunADB.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\ADB_Programm\vr_start\QT_Choose_Game C:\ADB_Programm\vr_start\QT_Choose_Game C:\ADB_Programm\vr_start\QT_Choose_Game\build\Desktop_Qt_6_8_1_MinGW_64_bit-Debug C:\ADB_Programm\vr_start\QT_Choose_Game\build\Desktop_Qt_6_8_1_MinGW_64_bit-Debug C:\ADB_Programm\vr_start\QT_Choose_Game\build\Desktop_Qt_6_8_1_MinGW_64_bit-Debug\CMakeFiles\RunADB.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\User\Documents\QT_Projects\vr_start\QT_Choose_Game C:\Users\User\Documents\QT_Projects\vr_start\QT_Choose_Game C:\Users\User\Documents\QT_Projects\vr_start\QT_Choose_Game\build\Desktop_Qt_6_8_1_MinGW_64_bit-Debug C:\Users\User\Documents\QT_Projects\vr_start\QT_Choose_Game\build\Desktop_Qt_6_8_1_MinGW_64_bit-Debug C:\Users\User\Documents\QT_Projects\vr_start\QT_Choose_Game\build\Desktop_Qt_6_8_1_MinGW_64_bit-Debug\CMakeFiles\RunADB.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/RunADB.dir/depend
 

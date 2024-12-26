@@ -10,6 +10,9 @@
 #include <QSqlError>
 #include <QDir>
 #include <QDebug>
+#include <QSqlTableModel>
+
+
 #include "getdeviceip.h"
 
 namespace Ui {
@@ -31,6 +34,7 @@ public:
 private:
     Ui::add_new_devices *ui;
     QSqlDatabase addDevices;
+    QSqlTableModel *model;
 };
 
 #endif // ADD_NEW_DEVICES_H

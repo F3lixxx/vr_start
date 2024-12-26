@@ -43,19 +43,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Qt\Tools\CMake_64\bin\cmake.exe
+CMAKE_COMMAND = "C:\Program Files\CMake\bin\cmake.exe"
 
 # The command to remove a file.
-RM = C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f
+RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\ADB_Programm\vr_start\QT_Choose_Game
+CMAKE_SOURCE_DIR = C:\Users\User\Documents\QT_Projects\vr_start\QT_Choose_Game
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\ADB_Programm\vr_start\QT_Choose_Game\build\Desktop_Qt_6_8_1_MinGW_64_bit-Debug
+CMAKE_BINARY_DIR = C:\Users\User\Documents\QT_Projects\vr_start\QT_Choose_Game\build\Desktop_Qt_6_8_1_MinGW_64_bit-Debug
 
 # Utility rule file for Choose_Game_autogen.
 
@@ -70,9 +70,9 @@ CMakeFiles/Choose_Game_autogen: Choose_Game_autogen/timestamp
 Choose_Game_autogen/timestamp: C:/Qt/6.8.1/mingw_64/bin/moc.exe
 Choose_Game_autogen/timestamp: C:/Qt/6.8.1/mingw_64/bin/uic.exe
 Choose_Game_autogen/timestamp: CMakeFiles/Choose_Game_autogen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\ADB_Programm\vr_start\QT_Choose_Game\build\Desktop_Qt_6_8_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target Choose_Game"
-	C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_autogen C:/ADB_Programm/vr_start/QT_Choose_Game/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/CMakeFiles/Choose_Game_autogen.dir/AutogenInfo.json Debug
-	C:\Qt\Tools\CMake_64\bin\cmake.exe -E touch C:/ADB_Programm/vr_start/QT_Choose_Game/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/Choose_Game_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\User\Documents\QT_Projects\vr_start\QT_Choose_Game\build\Desktop_Qt_6_8_1_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target Choose_Game"
+	"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/User/Documents/QT_Projects/vr_start/QT_Choose_Game/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/CMakeFiles/Choose_Game_autogen.dir/AutogenInfo.json Debug
+	"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/User/Documents/QT_Projects/vr_start/QT_Choose_Game/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/Choose_Game_autogen/timestamp
 
 Choose_Game_autogen: CMakeFiles/Choose_Game_autogen
 Choose_Game_autogen: Choose_Game_autogen/timestamp
@@ -88,6 +88,6 @@ CMakeFiles/Choose_Game_autogen.dir/clean:
 .PHONY : CMakeFiles/Choose_Game_autogen.dir/clean
 
 CMakeFiles/Choose_Game_autogen.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\ADB_Programm\vr_start\QT_Choose_Game C:\ADB_Programm\vr_start\QT_Choose_Game C:\ADB_Programm\vr_start\QT_Choose_Game\build\Desktop_Qt_6_8_1_MinGW_64_bit-Debug C:\ADB_Programm\vr_start\QT_Choose_Game\build\Desktop_Qt_6_8_1_MinGW_64_bit-Debug C:\ADB_Programm\vr_start\QT_Choose_Game\build\Desktop_Qt_6_8_1_MinGW_64_bit-Debug\CMakeFiles\Choose_Game_autogen.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\User\Documents\QT_Projects\vr_start\QT_Choose_Game C:\Users\User\Documents\QT_Projects\vr_start\QT_Choose_Game C:\Users\User\Documents\QT_Projects\vr_start\QT_Choose_Game\build\Desktop_Qt_6_8_1_MinGW_64_bit-Debug C:\Users\User\Documents\QT_Projects\vr_start\QT_Choose_Game\build\Desktop_Qt_6_8_1_MinGW_64_bit-Debug C:\Users\User\Documents\QT_Projects\vr_start\QT_Choose_Game\build\Desktop_Qt_6_8_1_MinGW_64_bit-Debug\CMakeFiles\Choose_Game_autogen.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/Choose_Game_autogen.dir/depend
 

@@ -1,6 +1,6 @@
 CMakeFiles/Choose_Game.dir/apkfile.cpp.obj: \
- C:\ADB_Programm\vr_start\QT_Choose_Game\apkfile.cpp \
- C:\ADB_Programm\vr_start\QT_Choose_Game\apkfile.h \
+ C:\Users\User\Documents\QT_Projects\vr_start\QT_Choose_Game\apkfile.cpp \
+ C:\Users\User\Documents\QT_Projects\vr_start\QT_Choose_Game\apkfile.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/QMainWindow \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qmainwindow.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -375,7 +375,7 @@ CMakeFiles/Choose_Game.dir/apkfile.cpp.obj: \
  C:/Qt/6.8.1/mingw_64/include/QtCore/QProcess \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qprocess.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qiodevice.h \
- C:/ADB_Programm/vr_start/QT_Choose_Game/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/Choose_Game_autogen/include/ui_apkfile.h \
+ C:/Users/User/Documents/QT_Projects/vr_start/QT_Choose_Game/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/Choose_Game_autogen/include/ui_apkfile.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/QVariant \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qvariant.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/QApplication \

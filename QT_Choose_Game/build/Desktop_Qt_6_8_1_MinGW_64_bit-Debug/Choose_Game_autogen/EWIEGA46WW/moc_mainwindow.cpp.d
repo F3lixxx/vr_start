@@ -1,9 +1,5 @@
-C:/ADB_Programm/vr_start/QT_Choose_Game/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/Choose_Game_autogen/EWIEGA46WW/moc_mainwindow.cpp: C:/ADB_Programm/vr_start/QT_Choose_Game/mainwindow.h \
-  C:/ADB_Programm/vr_start/QT_Choose_Game/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/Choose_Game_autogen/moc_predefs.h \
-  C:/ADB_Programm/vr_start/QT_Choose_Game/add_new_devices.h \
-  C:/ADB_Programm/vr_start/QT_Choose_Game/apkfile.h \
-  C:/ADB_Programm/vr_start/QT_Choose_Game/getdeviceip.h \
-  C:/ADB_Programm/vr_start/QT_Choose_Game/second_window.h \
+C:/Users/User/Documents/QT_Projects/vr_start/QT_Choose_Game/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/Choose_Game_autogen/EWIEGA46WW/moc_mainwindow.cpp: C:/Users/User/Documents/QT_Projects/vr_start/QT_Choose_Game/mainwindow.h \
+  C:/Users/User/Documents/QT_Projects/vr_start/QT_Choose_Game/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/Choose_Game_autogen/moc_predefs.h \
   C:/Qt/6.8.1/mingw_64/include/QtCore/QByteArray \
   C:/Qt/6.8.1/mingw_64/include/QtCore/QCoreApplication \
   C:/Qt/6.8.1/mingw_64/include/QtCore/QDebug \
@@ -17,6 +13,7 @@ C:/ADB_Programm/vr_start/QT_Choose_Game/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debu
   C:/Qt/6.8.1/mingw_64/include/QtCore/q20memory.h \
   C:/Qt/6.8.1/mingw_64/include/QtCore/q20type_traits.h \
   C:/Qt/6.8.1/mingw_64/include/QtCore/q23utility.h \
+  C:/Qt/6.8.1/mingw_64/include/QtCore/qabstractitemmodel.h \
   C:/Qt/6.8.1/mingw_64/include/QtCore/qalgorithms.h \
   C:/Qt/6.8.1/mingw_64/include/QtCore/qanystringview.h \
   C:/Qt/6.8.1/mingw_64/include/QtCore/qarraydata.h \
@@ -184,10 +181,13 @@ C:/ADB_Programm/vr_start/QT_Choose_Game/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debu
   C:/Qt/6.8.1/mingw_64/include/QtSql/QSqlError \
   C:/Qt/6.8.1/mingw_64/include/QtSql/QSqlQuery \
   C:/Qt/6.8.1/mingw_64/include/QtSql/QSqlRecord \
+  C:/Qt/6.8.1/mingw_64/include/QtSql/QSqlTableModel \
   C:/Qt/6.8.1/mingw_64/include/QtSql/qsqldatabase.h \
   C:/Qt/6.8.1/mingw_64/include/QtSql/qsqlerror.h \
   C:/Qt/6.8.1/mingw_64/include/QtSql/qsqlquery.h \
+  C:/Qt/6.8.1/mingw_64/include/QtSql/qsqlquerymodel.h \
   C:/Qt/6.8.1/mingw_64/include/QtSql/qsqlrecord.h \
+  C:/Qt/6.8.1/mingw_64/include/QtSql/qsqltablemodel.h \
   C:/Qt/6.8.1/mingw_64/include/QtSql/qtsql-config.h \
   C:/Qt/6.8.1/mingw_64/include/QtSql/qtsqlexports.h \
   C:/Qt/6.8.1/mingw_64/include/QtSql/qtsqlglobal.h \
@@ -440,4 +440,8 @@ C:/ADB_Programm/vr_start/QT_Choose_Game/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debu
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/time.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
-  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wctype.h
+  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wctype.h \
+  C:/Users/User/Documents/QT_Projects/vr_start/QT_Choose_Game/add_new_devices.h \
+  C:/Users/User/Documents/QT_Projects/vr_start/QT_Choose_Game/apkfile.h \
+  C:/Users/User/Documents/QT_Projects/vr_start/QT_Choose_Game/getdeviceip.h \
+  C:/Users/User/Documents/QT_Projects/vr_start/QT_Choose_Game/second_window.h

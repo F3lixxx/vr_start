@@ -1,6 +1,6 @@
 CMakeFiles/Choose_Game.dir/add_new_devices.cpp.obj: \
- C:\ADB_Programm\vr_start\QT_Choose_Game\add_new_devices.cpp \
- C:\ADB_Programm\vr_start\QT_Choose_Game\add_new_devices.h \
+ C:\Users\User\Documents\QT_Projects\vr_start\QT_Choose_Game\add_new_devices.cpp \
+ C:\Users\User\Documents\QT_Projects\vr_start\QT_Choose_Game\add_new_devices.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/QMainWindow \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qmainwindow.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -430,7 +430,11 @@ CMakeFiles/Choose_Game.dir/add_new_devices.cpp.obj: \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qtimezone.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/QDebug \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qdebug.h \
- C:\ADB_Programm\vr_start\QT_Choose_Game\getdeviceip.h \
+ C:/Qt/6.8.1/mingw_64/include/QtSql/QSqlTableModel \
+ C:/Qt/6.8.1/mingw_64/include/QtSql/qsqltablemodel.h \
+ C:/Qt/6.8.1/mingw_64/include/QtSql/qsqlquerymodel.h \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/qabstractitemmodel.h \
+ C:\Users\User\Documents\QT_Projects\vr_start\QT_Choose_Game\getdeviceip.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/QCoreApplication \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qcoreapplication.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qcoreevent.h \
@@ -446,7 +450,7 @@ CMakeFiles/Choose_Game.dir/add_new_devices.cpp.obj: \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qtextstream.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/QRegularExpression \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qregularexpression.h \
- C:/ADB_Programm/vr_start/QT_Choose_Game/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/Choose_Game_autogen/include/ui_add_new_devices.h \
+ C:/Users/User/Documents/QT_Projects/vr_start/QT_Choose_Game/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/Choose_Game_autogen/include/ui_add_new_devices.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/QVariant \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qvariant.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/QApplication \
@@ -454,17 +458,35 @@ CMakeFiles/Choose_Game.dir/add_new_devices.cpp.obj: \
  C:/Qt/6.8.1/mingw_64/include/QtGui/qguiapplication.h \
  C:/Qt/6.8.1/mingw_64/include/QtGui/qinputmethod.h \
  C:/Qt/6.8.1/mingw_64/include/QtGui/qguiapplication_platform.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/QGridLayout \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qgridlayout.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qlayout.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qlayoutitem.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qboxlayout.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qgridlayout.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/QHeaderView \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qheaderview.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qabstractitemview.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qabstractscrollarea.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qframe.h \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/qitemselectionmodel.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qstyleoption.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qabstractspinbox.h \
+ C:/Qt/6.8.1/mingw_64/include/QtGui/qvalidator.h \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/qregularexpression.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qslider.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qabstractslider.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qstyle.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qtabbar.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qrubberband.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/QMainWindow \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/QMenuBar \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qmenubar.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qmenu.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/QStatusBar \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qstatusbar.h \
- C:/Qt/6.8.1/mingw_64/include/QtWidgets/QVBoxLayout \
- C:/Qt/6.8.1/mingw_64/include/QtWidgets/qboxlayout.h \
- C:/Qt/6.8.1/mingw_64/include/QtWidgets/qlayout.h \
- C:/Qt/6.8.1/mingw_64/include/QtWidgets/qlayoutitem.h \
- C:/Qt/6.8.1/mingw_64/include/QtWidgets/qboxlayout.h \
- C:/Qt/6.8.1/mingw_64/include/QtWidgets/qgridlayout.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/QTableView \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qtableview.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/QWidget \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qwidget.h

@@ -10,9 +10,11 @@ MainWindow::MainWindow(QWidget *parent)
     add_device = new add_new_devices(this);
     connect(ui->pb_choose_device, &QPushButton::clicked, this, &MainWindow::window_choose_game);
     connect(ui->pb_check_new_device, &QPushButton::clicked, this, &MainWindow::window_install_device);
-    connect(ui->pb_devices, &QPushButton::clicked, this, &MainWindow::connected_devices);
-}
+    // connect(ui->pb_devices, &QPushButton::clicked, this, &MainWindow::connected_devices);
+    connect(ui->pb_devices, &QPushButton::clicked, this, &MainWindow::on_pb_devices_clicked);
 
+}
+/*
 void MainWindow::connected_devices(){
       QProcess *devices = new QProcess(this);
 
@@ -35,7 +37,11 @@ void MainWindow::connected_devices(){
 
       connect(devices, &QProcess::readyReadStandardOutput, this, &MainWindow::readOutput);
       connect(devices, &QProcess::readyReadStandardError, this, &MainWindow::readError);
-}
+}*/
+/*
+void MainWindow::connected_devices(){
+    add_device->show();
+}*/
 
 void MainWindow::readOutput() {
     // Чтение стандартного вывода
@@ -58,7 +64,6 @@ void MainWindow::readOutput() {
                 break;
             }
         }
-        ui->te_adb_devices->append(QString(output));  // Добавляем в QTextEdit
     }
 }
 
@@ -69,6 +74,11 @@ void MainWindow::readError() {
         QByteArray error = process->readAllStandardError();
         qDebug() << "Error: " << error;  // Логируем ошибки
     }
+}
+
+void MainWindow::on_pb_devices_clicked()
+{
+    add_device->show();
 }
 
 void MainWindow::window_install_device(){
@@ -83,3 +93,6 @@ MainWindow::~MainWindow()
 {
     delete ui;
 }
+
+
+

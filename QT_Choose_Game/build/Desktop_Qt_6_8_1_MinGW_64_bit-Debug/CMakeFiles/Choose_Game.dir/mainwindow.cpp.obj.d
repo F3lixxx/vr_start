@@ -1,6 +1,6 @@
 CMakeFiles/Choose_Game.dir/mainwindow.cpp.obj: \
- C:\ADB_Programm\vr_start\QT_Choose_Game\mainwindow.cpp \
- C:\ADB_Programm\vr_start\QT_Choose_Game\mainwindow.h \
+ C:\Users\User\Documents\QT_Projects\vr_start\QT_Choose_Game\mainwindow.cpp \
+ C:\Users\User\Documents\QT_Projects\vr_start\QT_Choose_Game\mainwindow.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/QMainWindow \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qmainwindow.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -374,8 +374,8 @@ CMakeFiles/Choose_Game.dir/mainwindow.cpp.obj: \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qtabwidget.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/QByteArray \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qbytearray.h \
- C:\ADB_Programm\vr_start\QT_Choose_Game\second_window.h \
- C:\ADB_Programm\vr_start\QT_Choose_Game\apkfile.h \
+ C:\Users\User\Documents\QT_Projects\vr_start\QT_Choose_Game\second_window.h \
+ C:\Users\User\Documents\QT_Projects\vr_start\QT_Choose_Game\apkfile.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/QProcess \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qprocess.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qiodevice.h \
@@ -408,7 +408,7 @@ CMakeFiles/Choose_Game.dir/mainwindow.cpp.obj: \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qregularexpression.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qlocale.h \
  C:/Qt/6.8.1/mingw_64/include/QtGui/QRegularExpressionValidator \
- C:\ADB_Programm\vr_start\QT_Choose_Game\add_new_devices.h \
+ C:\Users\User\Documents\QT_Projects\vr_start\QT_Choose_Game\add_new_devices.h \
  C:/Qt/6.8.1/mingw_64/include/QtSql/QSqlDatabase \
  C:/Qt/6.8.1/mingw_64/include/QtSql/qsqldatabase.h \
  C:/Qt/6.8.1/mingw_64/include/QtSql/qtsqlglobal.h \
@@ -448,7 +448,11 @@ CMakeFiles/Choose_Game.dir/mainwindow.cpp.obj: \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_ops.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qfileinfo.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qtimezone.h \
- C:\ADB_Programm\vr_start\QT_Choose_Game\getdeviceip.h \
+ C:/Qt/6.8.1/mingw_64/include/QtSql/QSqlTableModel \
+ C:/Qt/6.8.1/mingw_64/include/QtSql/qsqltablemodel.h \
+ C:/Qt/6.8.1/mingw_64/include/QtSql/qsqlquerymodel.h \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/qabstractitemmodel.h \
+ C:\Users\User\Documents\QT_Projects\vr_start\QT_Choose_Game\getdeviceip.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/QCoreApplication \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qcoreapplication.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qcoreevent.h \
@@ -462,7 +466,7 @@ CMakeFiles/Choose_Game.dir/mainwindow.cpp.obj: \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qtextstream.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/QRegularExpression \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qregularexpression.h \
- C:/ADB_Programm/vr_start/QT_Choose_Game/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/Choose_Game_autogen/include/ui_mainwindow.h \
+ C:/Users/User/Documents/QT_Projects/vr_start/QT_Choose_Game/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/Choose_Game_autogen/include/ui_mainwindow.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/QVariant \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qvariant.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/QApplication \
@@ -476,8 +480,6 @@ CMakeFiles/Choose_Game.dir/mainwindow.cpp.obj: \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qlayoutitem.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qboxlayout.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qgridlayout.h \
- C:/Qt/6.8.1/mingw_64/include/QtWidgets/QHBoxLayout \
- C:/Qt/6.8.1/mingw_64/include/QtWidgets/qboxlayout.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/QMainWindow \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/QMenuBar \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qmenubar.h \
@@ -485,20 +487,7 @@ CMakeFiles/Choose_Game.dir/mainwindow.cpp.obj: \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/QPushButton \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qpushbutton.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qabstractbutton.h \
- C:/Qt/6.8.1/mingw_64/include/QtWidgets/QSpacerItem \
- C:/Qt/6.8.1/mingw_64/include/QtWidgets/qlayoutitem.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/QStatusBar \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qstatusbar.h \
- C:/Qt/6.8.1/mingw_64/include/QtWidgets/QTextEdit \
- C:/Qt/6.8.1/mingw_64/include/QtWidgets/qtextedit.h \
- C:/Qt/6.8.1/mingw_64/include/QtWidgets/qabstractscrollarea.h \
- C:/Qt/6.8.1/mingw_64/include/QtWidgets/qframe.h \
- C:/Qt/6.8.1/mingw_64/include/QtGui/qtextdocument.h \
- C:/Qt/6.8.1/mingw_64/include/QtCore/qurl.h \
- C:/Qt/6.8.1/mingw_64/include/QtGui/qtextoption.h \
- C:/Qt/6.8.1/mingw_64/include/QtGui/qtextcursor.h \
- C:/Qt/6.8.1/mingw_64/include/QtGui/qtextformat.h \
- C:/Qt/6.8.1/mingw_64/include/QtGui/qpen.h \
- C:/Qt/6.8.1/mingw_64/include/QtWidgets/QVBoxLayout \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/QWidget \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qwidget.h

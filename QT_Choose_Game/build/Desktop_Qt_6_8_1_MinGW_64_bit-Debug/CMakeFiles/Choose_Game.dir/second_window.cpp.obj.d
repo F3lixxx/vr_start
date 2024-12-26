@@ -1,7 +1,7 @@
 CMakeFiles/Choose_Game.dir/second_window.cpp.obj: \
- C:\ADB_Programm\vr_start\QT_Choose_Game\second_window.cpp \
- C:\ADB_Programm\vr_start\QT_Choose_Game\second_window.h \
- C:\ADB_Programm\vr_start\QT_Choose_Game\apkfile.h \
+ C:\Users\User\Documents\QT_Projects\vr_start\QT_Choose_Game\second_window.cpp \
+ C:\Users\User\Documents\QT_Projects\vr_start\QT_Choose_Game\second_window.h \
+ C:\Users\User\Documents\QT_Projects\vr_start\QT_Choose_Game\apkfile.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/QMainWindow \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qmainwindow.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -405,7 +405,7 @@ CMakeFiles/Choose_Game.dir/second_window.cpp.obj: \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qregularexpression.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qlocale.h \
  C:/Qt/6.8.1/mingw_64/include/QtGui/QRegularExpressionValidator \
- C:/ADB_Programm/vr_start/QT_Choose_Game/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/Choose_Game_autogen/include/ui_second_window.h \
+ C:/Users/User/Documents/QT_Projects/vr_start/QT_Choose_Game/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/Choose_Game_autogen/include/ui_second_window.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/QVariant \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qvariant.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/QApplication \

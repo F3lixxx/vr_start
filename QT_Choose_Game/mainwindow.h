@@ -4,6 +4,7 @@
 #include <QMainWindow>
 #include <cstdlib>
 #include <QByteArray>
+
 #include "second_window.h"
 #include "add_new_devices.h"
 
@@ -25,10 +26,12 @@ public:
     void window_choose_game();
 //end
 
-
     void connected_devices();
     void readOutput();
     void readError();
+
+private slots:
+    void on_pb_devices_clicked();
 
 private:
     Ui::MainWindow *ui;

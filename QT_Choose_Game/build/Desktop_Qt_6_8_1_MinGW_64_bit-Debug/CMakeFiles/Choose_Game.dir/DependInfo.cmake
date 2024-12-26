@@ -9,13 +9,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "Choose_Game_autogen/timestamp" "custom" "Choose_Game_autogen/deps"
-  "C:/ADB_Programm/vr_start/QT_Choose_Game/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/Choose_Game_autogen/mocs_compilation.cpp" "CMakeFiles/Choose_Game.dir/Choose_Game_autogen/mocs_compilation.cpp.obj" "gcc" "CMakeFiles/Choose_Game.dir/Choose_Game_autogen/mocs_compilation.cpp.obj.d"
-  "C:/ADB_Programm/vr_start/QT_Choose_Game/add_new_devices.cpp" "CMakeFiles/Choose_Game.dir/add_new_devices.cpp.obj" "gcc" "CMakeFiles/Choose_Game.dir/add_new_devices.cpp.obj.d"
-  "C:/ADB_Programm/vr_start/QT_Choose_Game/apkfile.cpp" "CMakeFiles/Choose_Game.dir/apkfile.cpp.obj" "gcc" "CMakeFiles/Choose_Game.dir/apkfile.cpp.obj.d"
-  "C:/ADB_Programm/vr_start/QT_Choose_Game/getdeviceip.cpp" "CMakeFiles/Choose_Game.dir/getdeviceip.cpp.obj" "gcc" "CMakeFiles/Choose_Game.dir/getdeviceip.cpp.obj.d"
-  "C:/ADB_Programm/vr_start/QT_Choose_Game/main.cpp" "CMakeFiles/Choose_Game.dir/main.cpp.obj" "gcc" "CMakeFiles/Choose_Game.dir/main.cpp.obj.d"
-  "C:/ADB_Programm/vr_start/QT_Choose_Game/mainwindow.cpp" "CMakeFiles/Choose_Game.dir/mainwindow.cpp.obj" "gcc" "CMakeFiles/Choose_Game.dir/mainwindow.cpp.obj.d"
-  "C:/ADB_Programm/vr_start/QT_Choose_Game/second_window.cpp" "CMakeFiles/Choose_Game.dir/second_window.cpp.obj" "gcc" "CMakeFiles/Choose_Game.dir/second_window.cpp.obj.d"
+  "C:/Users/User/Documents/QT_Projects/vr_start/QT_Choose_Game/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/Choose_Game_autogen/mocs_compilation.cpp" "CMakeFiles/Choose_Game.dir/Choose_Game_autogen/mocs_compilation.cpp.obj" "gcc" "CMakeFiles/Choose_Game.dir/Choose_Game_autogen/mocs_compilation.cpp.obj.d"
+  "C:/Users/User/Documents/QT_Projects/vr_start/QT_Choose_Game/add_new_devices.cpp" "CMakeFiles/Choose_Game.dir/add_new_devices.cpp.obj" "gcc" "CMakeFiles/Choose_Game.dir/add_new_devices.cpp.obj.d"
+  "C:/Users/User/Documents/QT_Projects/vr_start/QT_Choose_Game/apkfile.cpp" "CMakeFiles/Choose_Game.dir/apkfile.cpp.obj" "gcc" "CMakeFiles/Choose_Game.dir/apkfile.cpp.obj.d"
+  "C:/Users/User/Documents/QT_Projects/vr_start/QT_Choose_Game/getdeviceip.cpp" "CMakeFiles/Choose_Game.dir/getdeviceip.cpp.obj" "gcc" "CMakeFiles/Choose_Game.dir/getdeviceip.cpp.obj.d"
+  "C:/Users/User/Documents/QT_Projects/vr_start/QT_Choose_Game/main.cpp" "CMakeFiles/Choose_Game.dir/main.cpp.obj" "gcc" "CMakeFiles/Choose_Game.dir/main.cpp.obj.d"
+  "C:/Users/User/Documents/QT_Projects/vr_start/QT_Choose_Game/mainwindow.cpp" "CMakeFiles/Choose_Game.dir/mainwindow.cpp.obj" "gcc" "CMakeFiles/Choose_Game.dir/mainwindow.cpp.obj.d"
+  "C:/Users/User/Documents/QT_Projects/vr_start/QT_Choose_Game/second_window.cpp" "CMakeFiles/Choose_Game.dir/second_window.cpp.obj" "gcc" "CMakeFiles/Choose_Game.dir/second_window.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

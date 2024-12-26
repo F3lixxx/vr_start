@@ -1,6 +1,5 @@
-C:/ADB_Programm/vr_start/QT_Choose_Game/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/Choose_Game_autogen/EWIEGA46WW/moc_second_window.cpp: C:/ADB_Programm/vr_start/QT_Choose_Game/second_window.h \
-  C:/ADB_Programm/vr_start/QT_Choose_Game/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/Choose_Game_autogen/moc_predefs.h \
-  C:/ADB_Programm/vr_start/QT_Choose_Game/apkfile.h \
+C:/Users/User/Documents/QT_Projects/vr_start/QT_Choose_Game/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/Choose_Game_autogen/EWIEGA46WW/moc_second_window.cpp: C:/Users/User/Documents/QT_Projects/vr_start/QT_Choose_Game/second_window.h \
+  C:/Users/User/Documents/QT_Projects/vr_start/QT_Choose_Game/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/Choose_Game_autogen/moc_predefs.h \
   C:/Qt/6.8.1/mingw_64/include/QtCore/QDebug \
   C:/Qt/6.8.1/mingw_64/include/QtCore/QProcess \
   C:/Qt/6.8.1/mingw_64/include/QtCore/QString \
@@ -388,4 +387,5 @@ C:/ADB_Programm/vr_start/QT_Choose_Game/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debu
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/time.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
-  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wctype.h
+  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wctype.h \
+  C:/Users/User/Documents/QT_Projects/vr_start/QT_Choose_Game/apkfile.h

@@ -1,6 +1,6 @@
 CMakeFiles/Choose_Game.dir/main.cpp.obj: \
- C:\ADB_Programm\vr_start\QT_Choose_Game\main.cpp \
- C:\ADB_Programm\vr_start\QT_Choose_Game\mainwindow.h \
+ C:\Users\User\Documents\QT_Projects\vr_start\QT_Choose_Game\main.cpp \
+ C:\Users\User\Documents\QT_Projects\vr_start\QT_Choose_Game\mainwindow.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/QMainWindow \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qmainwindow.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -374,8 +374,8 @@ CMakeFiles/Choose_Game.dir/main.cpp.obj: \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qtabwidget.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/QByteArray \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qbytearray.h \
- C:\ADB_Programm\vr_start\QT_Choose_Game\second_window.h \
- C:\ADB_Programm\vr_start\QT_Choose_Game\apkfile.h \
+ C:\Users\User\Documents\QT_Projects\vr_start\QT_Choose_Game\second_window.h \
+ C:\Users\User\Documents\QT_Projects\vr_start\QT_Choose_Game\apkfile.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/QProcess \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qprocess.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qiodevice.h \
@@ -408,7 +408,7 @@ CMakeFiles/Choose_Game.dir/main.cpp.obj: \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qregularexpression.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qlocale.h \
  C:/Qt/6.8.1/mingw_64/include/QtGui/QRegularExpressionValidator \
- C:\ADB_Programm\vr_start\QT_Choose_Game\add_new_devices.h \
+ C:\Users\User\Documents\QT_Projects\vr_start\QT_Choose_Game\add_new_devices.h \
  C:/Qt/6.8.1/mingw_64/include/QtSql/QSqlDatabase \
  C:/Qt/6.8.1/mingw_64/include/QtSql/qsqldatabase.h \
  C:/Qt/6.8.1/mingw_64/include/QtSql/qtsqlglobal.h \
@@ -448,7 +448,11 @@ CMakeFiles/Choose_Game.dir/main.cpp.obj: \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_ops.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qfileinfo.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qtimezone.h \
- C:\ADB_Programm\vr_start\QT_Choose_Game\getdeviceip.h \
+ C:/Qt/6.8.1/mingw_64/include/QtSql/QSqlTableModel \
+ C:/Qt/6.8.1/mingw_64/include/QtSql/qsqltablemodel.h \
+ C:/Qt/6.8.1/mingw_64/include/QtSql/qsqlquerymodel.h \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/qabstractitemmodel.h \
+ C:\Users\User\Documents\QT_Projects\vr_start\QT_Choose_Game\getdeviceip.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/QCoreApplication \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qcoreapplication.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qcoreevent.h \

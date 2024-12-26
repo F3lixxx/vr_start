@@ -1,6 +1,6 @@
 CMakeFiles/Choose_Game.dir/getdeviceip.cpp.obj: \
- C:\ADB_Programm\vr_start\QT_Choose_Game\getdeviceip.cpp \
- C:\ADB_Programm\vr_start\QT_Choose_Game\getdeviceip.h \
+ C:\Users\User\Documents\QT_Projects\vr_start\QT_Choose_Game\getdeviceip.cpp \
+ C:\Users\User\Documents\QT_Projects\vr_start\QT_Choose_Game\getdeviceip.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/QCoreApplication \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qcoreapplication.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qglobal.h \

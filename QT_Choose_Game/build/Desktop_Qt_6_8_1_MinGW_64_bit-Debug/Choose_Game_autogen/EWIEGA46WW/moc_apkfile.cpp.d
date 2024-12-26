@@ -1,5 +1,5 @@
-C:/ADB_Programm/vr_start/QT_Choose_Game/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/Choose_Game_autogen/EWIEGA46WW/moc_apkfile.cpp: C:/ADB_Programm/vr_start/QT_Choose_Game/apkfile.h \
-  C:/ADB_Programm/vr_start/QT_Choose_Game/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/Choose_Game_autogen/moc_predefs.h \
+C:/Users/User/Documents/QT_Projects/vr_start/QT_Choose_Game/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/Choose_Game_autogen/EWIEGA46WW/moc_apkfile.cpp: C:/Users/User/Documents/QT_Projects/vr_start/QT_Choose_Game/apkfile.h \
+  C:/Users/User/Documents/QT_Projects/vr_start/QT_Choose_Game/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/Choose_Game_autogen/moc_predefs.h \
   C:/Qt/6.8.1/mingw_64/include/QtCore/QProcess \
   C:/Qt/6.8.1/mingw_64/include/QtCore/q20functional.h \
   C:/Qt/6.8.1/mingw_64/include/QtCore/q20iterator.h \

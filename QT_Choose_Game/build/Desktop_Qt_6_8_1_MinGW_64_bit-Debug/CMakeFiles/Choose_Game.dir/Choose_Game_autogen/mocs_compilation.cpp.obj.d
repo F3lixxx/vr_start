@@ -1,7 +1,7 @@
 CMakeFiles/Choose_Game.dir/Choose_Game_autogen/mocs_compilation.cpp.obj: \
- C:\ADB_Programm\vr_start\QT_Choose_Game\build\Desktop_Qt_6_8_1_MinGW_64_bit-Debug\Choose_Game_autogen\mocs_compilation.cpp \
- C:\ADB_Programm\vr_start\QT_Choose_Game\build\Desktop_Qt_6_8_1_MinGW_64_bit-Debug\Choose_Game_autogen\EWIEGA46WW/moc_add_new_devices.cpp \
- C:/ADB_Programm/vr_start/QT_Choose_Game/add_new_devices.h \
+ C:\Users\User\Documents\QT_Projects\vr_start\QT_Choose_Game\build\Desktop_Qt_6_8_1_MinGW_64_bit-Debug\Choose_Game_autogen\mocs_compilation.cpp \
+ C:\Users\User\Documents\QT_Projects\vr_start\QT_Choose_Game\build\Desktop_Qt_6_8_1_MinGW_64_bit-Debug\Choose_Game_autogen\EWIEGA46WW/moc_add_new_devices.cpp \
+ C:/Users/User/Documents/QT_Projects/vr_start/QT_Choose_Game/add_new_devices.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/QMainWindow \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qmainwindow.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -431,7 +431,11 @@ CMakeFiles/Choose_Game.dir/Choose_Game_autogen/mocs_compilation.cpp.obj: \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qtimezone.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/QDebug \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qdebug.h \
- C:/ADB_Programm/vr_start/QT_Choose_Game/getdeviceip.h \
+ C:/Qt/6.8.1/mingw_64/include/QtSql/QSqlTableModel \
+ C:/Qt/6.8.1/mingw_64/include/QtSql/qsqltablemodel.h \
+ C:/Qt/6.8.1/mingw_64/include/QtSql/qsqlquerymodel.h \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/qabstractitemmodel.h \
+ C:/Users/User/Documents/QT_Projects/vr_start/QT_Choose_Game/getdeviceip.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/QCoreApplication \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qcoreapplication.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qcoreevent.h \
@@ -448,14 +452,14 @@ CMakeFiles/Choose_Game.dir/Choose_Game_autogen/mocs_compilation.cpp.obj: \
  C:/Qt/6.8.1/mingw_64/include/QtCore/QRegularExpression \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qregularexpression.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qtmochelpers.h \
- C:\ADB_Programm\vr_start\QT_Choose_Game\build\Desktop_Qt_6_8_1_MinGW_64_bit-Debug\Choose_Game_autogen\EWIEGA46WW/moc_apkfile.cpp \
- C:/ADB_Programm/vr_start/QT_Choose_Game/apkfile.h \
- C:\ADB_Programm\vr_start\QT_Choose_Game\build\Desktop_Qt_6_8_1_MinGW_64_bit-Debug\Choose_Game_autogen\EWIEGA46WW/moc_mainwindow.cpp \
- C:/ADB_Programm/vr_start/QT_Choose_Game/mainwindow.h \
+ C:\Users\User\Documents\QT_Projects\vr_start\QT_Choose_Game\build\Desktop_Qt_6_8_1_MinGW_64_bit-Debug\Choose_Game_autogen\EWIEGA46WW/moc_apkfile.cpp \
+ C:/Users/User/Documents/QT_Projects/vr_start/QT_Choose_Game/apkfile.h \
+ C:\Users\User\Documents\QT_Projects\vr_start\QT_Choose_Game\build\Desktop_Qt_6_8_1_MinGW_64_bit-Debug\Choose_Game_autogen\EWIEGA46WW/moc_mainwindow.cpp \
+ C:/Users/User/Documents/QT_Projects/vr_start/QT_Choose_Game/mainwindow.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/QByteArray \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qbytearray.h \
- C:/ADB_Programm/vr_start/QT_Choose_Game/second_window.h \
- C:/ADB_Programm/vr_start/QT_Choose_Game/apkfile.h \
+ C:/Users/User/Documents/QT_Projects/vr_start/QT_Choose_Game/second_window.h \
+ C:/Users/User/Documents/QT_Projects/vr_start/QT_Choose_Game/apkfile.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/QDialog \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qdialog.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/QMessageBox \
@@ -467,5 +471,5 @@ CMakeFiles/Choose_Game.dir/Choose_Game_autogen/mocs_compilation.cpp.obj: \
  C:/Qt/6.8.1/mingw_64/include/QtGui/qvalidator.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qregularexpression.h \
  C:/Qt/6.8.1/mingw_64/include/QtGui/QRegularExpressionValidator \
- C:\ADB_Programm\vr_start\QT_Choose_Game\build\Desktop_Qt_6_8_1_MinGW_64_bit-Debug\Choose_Game_autogen\EWIEGA46WW/moc_second_window.cpp \
- C:/ADB_Programm/vr_start/QT_Choose_Game/second_window.h
+ C:\Users\User\Documents\QT_Projects\vr_start\QT_Choose_Game\build\Desktop_Qt_6_8_1_MinGW_64_bit-Debug\Choose_Game_autogen\EWIEGA46WW/moc_second_window.cpp \
+ C:/Users/User/Documents/QT_Projects/vr_start/QT_Choose_Game/second_window.h
