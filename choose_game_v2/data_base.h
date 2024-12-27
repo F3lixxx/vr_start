@@ -14,6 +14,7 @@
 #include <QDebug>
 
 #include "connectdev.h"
+#include "apk_window.h"
 
 namespace Ui {
 class data_base;
@@ -27,14 +28,15 @@ public:
     explicit data_base(QWidget *parent = nullptr);
     ~data_base();
 
-//создание Базы данных
+//работа с Базой данных
     void create_DB();
     void show_DB();
+    void connect_wifi(QString ipAddress);
 //конец создания БД
 
 
 private slots:
-    void on_pb_connect_clicked();
+    // void on_pb_connect_clicked();
 
     void on_tv_db_clicked(const QModelIndex &index);
 
@@ -42,10 +44,13 @@ private slots:
 
 private:
     Ui::data_base *ui;
+    QString adb = "cd /../../platform-tools/adb.exe";
     connectDev *informationDev;
+    apk_window *apkStart;
     QSqlDatabase addDevices;
     QSqlTableModel *model;
     int currentRow;
+    int currentColumn;
 };
 
 #endif // DATA_BASE_H

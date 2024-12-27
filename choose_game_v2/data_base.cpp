@@ -7,6 +7,7 @@ data_base::data_base(QWidget *parent)
 {
     ui->setupUi(this);
     informationDev = new connectDev;
+    apkStart = new apk_window;
 }
 
 void data_base::create_DB(){
@@ -70,13 +71,49 @@ data_base::~data_base()
     delete ui;
 }
 
-void data_base::on_pb_connect_clicked()
-{
-    model->selectRow(currentRow);
-    model->submitAll();
-    informationDev->connect_wifi();
-    model->select();
+void data_base::connect_wifi(QString ipAddress){
+
+    QProcess *wifi_connect = new QProcess(this);
+
+    wifi_connect->setProgram(adb);
+    QStringList arguments = QStringList() << "connect" << ipAddress + ":5555 shell";
+    wifi_connect->setArguments(arguments);
+
+    // Составляем строку команды для вывода в qDebug
+    QString command = adb + " " + arguments.join(" ");
+    qDebug() << "Executing command:" << command;
+
+    wifi_connect->start();
+
+    if(!wifi_connect->waitForFinished()){
+        qDebug() << "Can't connect from wifi ADB!" << wifi_connect->errorString();
+    }else{
+        qDebug() << "ADB connected to wifi successfully!";
+    }
+
+    QProcess *connect_dev = new QProcess(this);
+
+    connect_dev->setProgram(adb);
+    QStringList arguments_connectDev = QStringList() << "-s" << ipAddress + ":5555 shell";
+    wifi_connect->setArguments(arguments);
+
+    // Составляем строку команды для вывода в qDebug
+    QString commandConnectDev = adb + " " + arguments_connectDev.join(" ");
+    qDebug() << "Executing command:" << commandConnectDev;
+
+    connect_dev->start();
+
+    if(!connect_dev->waitForFinished()){
+        qDebug() << "Can't connect select device!" << connect_dev->errorString();
+    }else{
+        qDebug() << "ADB connected selected device successfully!";
+    }
 }
+
+// void data_base::on_pb_connect_clicked()
+// {
+//     model->select();
+// }
 
 void data_base::on_pb_delete_clicked()
 {
@@ -88,5 +125,24 @@ void data_base::on_pb_delete_clicked()
 void data_base::on_tv_db_clicked(const QModelIndex &index)
 {
     currentRow = index.row();
+    currentColumn = index.column();
+
+    // Извлекаем IP-адрес из выбранной строки
+    QModelIndex ipIndex = model->index(currentRow, 1);  // 1 - это индекс столбца IP
+    QString ipAddress = model->data(ipIndex).toString();
+
+    qDebug() << "Selected IP Address: " << ipAddress;
+    connect_wifi(ipAddress);  // Пример использования IP-адреса для подключения
+    apkStart->show();
+
+    QProcess *wifi_connect = new QProcess(this);
+
+    wifi_connect->setProgram(adb);
+    QStringList arguments = QStringList() << "devices";
+    wifi_connect->setArguments(arguments);
+
+    // Составляем строку команды для вывода в qDebug
+    QString command = adb + " " + arguments.join(" ");
+    qDebug() << "Executing command:" << command;
 }
 

@@ -1,7 +1,7 @@
 CMakeFiles/choose_game_v2.dir/choose_game_v2_autogen/mocs_compilation.cpp.obj: \
  C:\Users\User\Documents\QT_Projects\vr_start\choose_game_v2\build\choose_game_v2_autogen\mocs_compilation.cpp \
- C:\Users\User\Documents\QT_Projects\vr_start\choose_game_v2\build\choose_game_v2_autogen\EWIEGA46WW/moc_connectdev.cpp \
- C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/connectdev.h \
+ C:\Users\User\Documents\QT_Projects\vr_start\choose_game_v2\build\choose_game_v2_autogen\EWIEGA46WW/moc_apk_window.cpp \
+ C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/apk_window.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/QDialog \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qdialog.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -372,15 +372,17 @@ CMakeFiles/choose_game_v2.dir/choose_game_v2_autogen/mocs_compilation.cpp.obj: \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qsizepolicy.h \
  C:/Qt/6.8.1/mingw_64/include/QtGui/qcursor.h \
  C:/Qt/6.8.1/mingw_64/include/QtGui/qbitmap.h \
- C:/Qt/6.8.1/mingw_64/include/QtCore/QByteArray \
- C:/Qt/6.8.1/mingw_64/include/QtCore/qbytearray.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/QProcess \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qprocess.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qiodevice.h \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/qtmochelpers.h \
+ C:\Users\User\Documents\QT_Projects\vr_start\choose_game_v2\build\choose_game_v2_autogen\EWIEGA46WW/moc_connectdev.cpp \
+ C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/connectdev.h \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/QByteArray \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/qbytearray.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/QRegularExpression \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qregularexpression.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/QRegularExpressionMatch \
- C:/Qt/6.8.1/mingw_64/include/QtCore/qtmochelpers.h \
  C:\Users\User\Documents\QT_Projects\vr_start\choose_game_v2\build\choose_game_v2_autogen\EWIEGA46WW/moc_data_base.cpp \
  C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/data_base.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/QDebug \
@@ -445,6 +447,7 @@ CMakeFiles/choose_game_v2.dir/choose_game_v2_autogen/mocs_compilation.cpp.obj: \
  C:/Qt/6.8.1/mingw_64/include/QtSql/qsqlquerymodel.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qabstractitemmodel.h \
  C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/connectdev.h \
+ C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/apk_window.h \
  C:\Users\User\Documents\QT_Projects\vr_start\choose_game_v2\build\choose_game_v2_autogen\EWIEGA46WW/moc_mainwindow.cpp \
  C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/mainwindow.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/QMainWindow \

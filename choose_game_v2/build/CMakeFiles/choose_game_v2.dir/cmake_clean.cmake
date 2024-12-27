@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/choose_game_v2_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/choose_game_v2_autogen.dir/ParseCache.txt"
   "choose_game_v2_autogen"
+  "CMakeFiles/choose_game_v2.dir/apk_window.cpp.obj"
+  "CMakeFiles/choose_game_v2.dir/apk_window.cpp.obj.d"
   "CMakeFiles/choose_game_v2.dir/choose_game_v2_autogen/mocs_compilation.cpp.obj"
   "CMakeFiles/choose_game_v2.dir/choose_game_v2_autogen/mocs_compilation.cpp.obj.d"
   "CMakeFiles/choose_game_v2.dir/connectdev.cpp.obj"

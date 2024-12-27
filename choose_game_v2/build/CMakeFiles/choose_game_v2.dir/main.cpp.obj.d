@@ -445,6 +445,7 @@ CMakeFiles/choose_game_v2.dir/main.cpp.obj: \
  C:/Qt/6.8.1/mingw_64/include/QtSql/qsqltablemodel.h \
  C:/Qt/6.8.1/mingw_64/include/QtSql/qsqlquerymodel.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qabstractitemmodel.h \
+ C:\Users\User\Documents\QT_Projects\vr_start\choose_game_v2\apk_window.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/QApplication \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qapplication.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qcoreapplication.h \

@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "choose_game_v2_autogen/timestamp" "custom" "choose_game_v2_autogen/deps"
+  "C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/apk_window.cpp" "CMakeFiles/choose_game_v2.dir/apk_window.cpp.obj" "gcc" "CMakeFiles/choose_game_v2.dir/apk_window.cpp.obj.d"
   "C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/build/choose_game_v2_autogen/mocs_compilation.cpp" "CMakeFiles/choose_game_v2.dir/choose_game_v2_autogen/mocs_compilation.cpp.obj" "gcc" "CMakeFiles/choose_game_v2.dir/choose_game_v2_autogen/mocs_compilation.cpp.obj.d"
   "C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/connectdev.cpp" "CMakeFiles/choose_game_v2.dir/connectdev.cpp.obj" "gcc" "CMakeFiles/choose_game_v2.dir/connectdev.cpp.obj.d"
   "C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/data_base.cpp" "CMakeFiles/choose_game_v2.dir/data_base.cpp.obj" "gcc" "CMakeFiles/choose_game_v2.dir/data_base.cpp.obj.d"

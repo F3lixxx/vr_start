@@ -22,7 +22,7 @@ public:
     ~connectDev();
 
     void connected_dev();
-    void connect_wifi();
+    // void connect_wifi();
     bool isConnected();
     QString devName();
     QString getIP();

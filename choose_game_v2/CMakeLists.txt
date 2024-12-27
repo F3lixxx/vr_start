@@ -36,6 +36,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         ${PROJECT_SOURCES}
         connectdev.h connectdev.cpp connectdev.ui
         data_base.h data_base.cpp data_base.ui
+        apk_window.h apk_window.cpp apk_window.ui
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET choose_game_v2 APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>apk_window</class>
+ <widget class="QDialog" name="apk_window">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>363</width>
+    <height>284</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QLineEdit" name="le_packageName">
+     <property name="styleSheet">
+      <string notr="true">    background-color: #f5f5f5; /* белый фон по умолчанию */
+    color: black;
+    font-size: 14px;
+	border: 1px solid ;
+    border-radius: 5px;
+</string>
+     </property>
+     <property name="placeholderText">
+      <string>Package name</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLineEdit" name="le_activName">
+     <property name="styleSheet">
+      <string notr="true">    background-color: #f5f5f5; /* белый фон по умолчанию */
+    color: black;
+    font-size: 14px;
+	border: 1px solid ;
+    border-radius: 5px;
+</string>
+     </property>
+     <property name="placeholderText">
+      <string>Activity name</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLineEdit" name="le_apkPath">
+     <property name="styleSheet">
+      <string notr="true">    background-color: #f5f5f5; /* белый фон по умолчанию */
+    color: black;
+    font-size: 14px;
+	border: 1px solid ;
+    border-radius: 5px;
+</string>
+     </property>
+     <property name="placeholderText">
+      <string>.apk path</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QPushButton" name="pb_start">
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    background-color: #f5f5f5; /* белый фон по умолчанию */
+    color: black;
+    font-size: 14px;
+	border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+QPushButton:hover {
+    background-color: #e6e6e6; /* Тёмно-белый фон при наведении */
+}</string>
+     </property>
+     <property name="text">
+      <string>Start Activity</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
