@@ -64,6 +64,7 @@
 #define __BFLT16_MAX_10_EXP__ 38
 #define __BFLT16_MAX_EXP__ 128
 #define __LDBL_IS_IEC_60559__ 1
+#define QT_NO_DEBUG 1
 #define __FLT64X_HAS_QUIET_NAN__ 1
 #define __UINT_LEAST8_MAX__ 0xff
 #define __GCC_ATOMIC_BOOL_LOCK_FREE 2
@@ -175,6 +176,7 @@
 #define __PTRDIFF_MAX__ 0x7fffffffffffffffLL
 #define __amd64 1
 #define __tune_core2__ 1
+#define QT_XML_LIB 1
 #define __ATOMIC_HLE_ACQUIRE 65536
 #define __GNUG__ 13
 #define __LONG_LONG_MAX__ 0x7fffffffffffffffLL

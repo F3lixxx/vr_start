@@ -2,6 +2,9 @@
 #define CONNECTDEV_H
 
 #include <QDialog>
+#include <QFile>
+#include <QFileInfo>
+#include <QTextStream>
 #include <cstdlib>
 #include <QByteArray>
 #include <QProcess>
@@ -22,8 +25,6 @@ public:
     ~connectDev();
 
     void connected_dev();
-    // void connect_wifi();
-    bool isConnected();
     QString devName();
     QString getIP();
     int set_port();
@@ -35,7 +36,6 @@ private:
     QString deviceName;
     QString get_IP;
     int port = 5555;
-
 };
 
 #endif // CONNECTDEV_H

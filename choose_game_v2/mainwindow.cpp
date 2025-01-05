@@ -7,21 +7,23 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
 
-    winConDev = new connectDev;
-    dbWin = new data_base;
+    // winConDev = new connectDev;
+    // dbWin = new data_base;
+    // parserxml = new ParserDataBase;
+    // dbWin->searchInfo();
 }
 
-void MainWindow::on_pb_check_dev_clicked()
-{
-    winConDev->show();
-}
+// void MainWindow::on_pb_check_dev_clicked()
+// {
+//     // winConDev->show();
+// }
 
 
 void MainWindow::on_pb_openDB_clicked()
 {
     dbWin->show();
-    dbWin->create_DB();
-    dbWin->show_DB();
+    // dbWin->create_DB();
+    // dbWin->show_DB();
 
 }
 
@@ -29,3 +31,9 @@ MainWindow::~MainWindow()
 {
     delete ui;
 }
+
+void MainWindow::on_pb_openDBxml_clicked()
+{
+    // parserxml->show();
+}
+

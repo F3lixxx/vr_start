@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>302</width>
-    <height>308</height>
+    <height>361</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -37,7 +37,7 @@ QPushButton:hover {
      </widget>
     </item>
     <item row="1" column="0">
-     <widget class="QPushButton" name="pb_addDev">
+     <widget class="QPushButton" name="pb_openDBxml">
       <property name="styleSheet">
        <string notr="true">QPushButton {
     background-color: #f5f5f5; /* белый фон по умолчанию */
@@ -53,7 +53,7 @@ QPushButton:hover {
 }</string>
       </property>
       <property name="text">
-       <string>Add device</string>
+       <string>Open Install packages</string>
       </property>
      </widget>
     </item>

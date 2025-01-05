@@ -72,7 +72,7 @@ choose_game_v2_autogen/timestamp: C:/Qt/6.8.1/mingw_64/bin/moc.exe
 choose_game_v2_autogen/timestamp: C:/Qt/6.8.1/mingw_64/bin/uic.exe
 choose_game_v2_autogen/timestamp: CMakeFiles/choose_game_v2.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\User\Documents\QT_Projects\vr_start\choose_game_v2\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target choose_game_v2"
-	"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/build/CMakeFiles/choose_game_v2_autogen.dir/AutogenInfo.json Debug
+	"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/build/CMakeFiles/choose_game_v2_autogen.dir/AutogenInfo.json RelWithDebInfo
 	"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/build/choose_game_v2_autogen/timestamp
 
 CMakeFiles/choose_game_v2.dir/choose_game_v2_autogen/mocs_compilation.cpp.obj: CMakeFiles/choose_game_v2.dir/flags.make
@@ -120,26 +120,11 @@ CMakeFiles/choose_game_v2.dir/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/choose_game_v2.dir/mainwindow.cpp.s"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\User\Documents\QT_Projects\vr_start\choose_game_v2\mainwindow.cpp -o CMakeFiles\choose_game_v2.dir\mainwindow.cpp.s
 
-CMakeFiles/choose_game_v2.dir/connectdev.cpp.obj: CMakeFiles/choose_game_v2.dir/flags.make
-CMakeFiles/choose_game_v2.dir/connectdev.cpp.obj: CMakeFiles/choose_game_v2.dir/includes_CXX.rsp
-CMakeFiles/choose_game_v2.dir/connectdev.cpp.obj: C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/connectdev.cpp
-CMakeFiles/choose_game_v2.dir/connectdev.cpp.obj: CMakeFiles/choose_game_v2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\User\Documents\QT_Projects\vr_start\choose_game_v2\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/choose_game_v2.dir/connectdev.cpp.obj"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/choose_game_v2.dir/connectdev.cpp.obj -MF CMakeFiles\choose_game_v2.dir\connectdev.cpp.obj.d -o CMakeFiles\choose_game_v2.dir\connectdev.cpp.obj -c C:\Users\User\Documents\QT_Projects\vr_start\choose_game_v2\connectdev.cpp
-
-CMakeFiles/choose_game_v2.dir/connectdev.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/choose_game_v2.dir/connectdev.cpp.i"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\User\Documents\QT_Projects\vr_start\choose_game_v2\connectdev.cpp > CMakeFiles\choose_game_v2.dir\connectdev.cpp.i
-
-CMakeFiles/choose_game_v2.dir/connectdev.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/choose_game_v2.dir/connectdev.cpp.s"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\User\Documents\QT_Projects\vr_start\choose_game_v2\connectdev.cpp -o CMakeFiles\choose_game_v2.dir\connectdev.cpp.s
-
 CMakeFiles/choose_game_v2.dir/data_base.cpp.obj: CMakeFiles/choose_game_v2.dir/flags.make
 CMakeFiles/choose_game_v2.dir/data_base.cpp.obj: CMakeFiles/choose_game_v2.dir/includes_CXX.rsp
 CMakeFiles/choose_game_v2.dir/data_base.cpp.obj: C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/data_base.cpp
 CMakeFiles/choose_game_v2.dir/data_base.cpp.obj: CMakeFiles/choose_game_v2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\User\Documents\QT_Projects\vr_start\choose_game_v2\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/choose_game_v2.dir/data_base.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\User\Documents\QT_Projects\vr_start\choose_game_v2\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/choose_game_v2.dir/data_base.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/choose_game_v2.dir/data_base.cpp.obj -MF CMakeFiles\choose_game_v2.dir\data_base.cpp.obj.d -o CMakeFiles\choose_game_v2.dir\data_base.cpp.obj -c C:\Users\User\Documents\QT_Projects\vr_start\choose_game_v2\data_base.cpp
 
 CMakeFiles/choose_game_v2.dir/data_base.cpp.i: cmake_force
@@ -154,7 +139,7 @@ CMakeFiles/choose_game_v2.dir/apk_window.cpp.obj: CMakeFiles/choose_game_v2.dir/
 CMakeFiles/choose_game_v2.dir/apk_window.cpp.obj: CMakeFiles/choose_game_v2.dir/includes_CXX.rsp
 CMakeFiles/choose_game_v2.dir/apk_window.cpp.obj: C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/apk_window.cpp
 CMakeFiles/choose_game_v2.dir/apk_window.cpp.obj: CMakeFiles/choose_game_v2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\User\Documents\QT_Projects\vr_start\choose_game_v2\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/choose_game_v2.dir/apk_window.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\User\Documents\QT_Projects\vr_start\choose_game_v2\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/choose_game_v2.dir/apk_window.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/choose_game_v2.dir/apk_window.cpp.obj -MF CMakeFiles\choose_game_v2.dir\apk_window.cpp.obj.d -o CMakeFiles\choose_game_v2.dir\apk_window.cpp.obj -c C:\Users\User\Documents\QT_Projects\vr_start\choose_game_v2\apk_window.cpp
 
 CMakeFiles/choose_game_v2.dir/apk_window.cpp.i: cmake_force
@@ -165,14 +150,29 @@ CMakeFiles/choose_game_v2.dir/apk_window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/choose_game_v2.dir/apk_window.cpp.s"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\User\Documents\QT_Projects\vr_start\choose_game_v2\apk_window.cpp -o CMakeFiles\choose_game_v2.dir\apk_window.cpp.s
 
+CMakeFiles/choose_game_v2.dir/parserdatabase.cpp.obj: CMakeFiles/choose_game_v2.dir/flags.make
+CMakeFiles/choose_game_v2.dir/parserdatabase.cpp.obj: CMakeFiles/choose_game_v2.dir/includes_CXX.rsp
+CMakeFiles/choose_game_v2.dir/parserdatabase.cpp.obj: C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/parserdatabase.cpp
+CMakeFiles/choose_game_v2.dir/parserdatabase.cpp.obj: CMakeFiles/choose_game_v2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\User\Documents\QT_Projects\vr_start\choose_game_v2\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/choose_game_v2.dir/parserdatabase.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/choose_game_v2.dir/parserdatabase.cpp.obj -MF CMakeFiles\choose_game_v2.dir\parserdatabase.cpp.obj.d -o CMakeFiles\choose_game_v2.dir\parserdatabase.cpp.obj -c C:\Users\User\Documents\QT_Projects\vr_start\choose_game_v2\parserdatabase.cpp
+
+CMakeFiles/choose_game_v2.dir/parserdatabase.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/choose_game_v2.dir/parserdatabase.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\User\Documents\QT_Projects\vr_start\choose_game_v2\parserdatabase.cpp > CMakeFiles\choose_game_v2.dir\parserdatabase.cpp.i
+
+CMakeFiles/choose_game_v2.dir/parserdatabase.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/choose_game_v2.dir/parserdatabase.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\User\Documents\QT_Projects\vr_start\choose_game_v2\parserdatabase.cpp -o CMakeFiles\choose_game_v2.dir\parserdatabase.cpp.s
+
 # Object files for target choose_game_v2
 choose_game_v2_OBJECTS = \
 "CMakeFiles/choose_game_v2.dir/choose_game_v2_autogen/mocs_compilation.cpp.obj" \
 "CMakeFiles/choose_game_v2.dir/main.cpp.obj" \
 "CMakeFiles/choose_game_v2.dir/mainwindow.cpp.obj" \
-"CMakeFiles/choose_game_v2.dir/connectdev.cpp.obj" \
 "CMakeFiles/choose_game_v2.dir/data_base.cpp.obj" \
-"CMakeFiles/choose_game_v2.dir/apk_window.cpp.obj"
+"CMakeFiles/choose_game_v2.dir/apk_window.cpp.obj" \
+"CMakeFiles/choose_game_v2.dir/parserdatabase.cpp.obj"
 
 # External object files for target choose_game_v2
 choose_game_v2_EXTERNAL_OBJECTS =
@@ -180,12 +180,13 @@ choose_game_v2_EXTERNAL_OBJECTS =
 choose_game_v2.exe: CMakeFiles/choose_game_v2.dir/choose_game_v2_autogen/mocs_compilation.cpp.obj
 choose_game_v2.exe: CMakeFiles/choose_game_v2.dir/main.cpp.obj
 choose_game_v2.exe: CMakeFiles/choose_game_v2.dir/mainwindow.cpp.obj
-choose_game_v2.exe: CMakeFiles/choose_game_v2.dir/connectdev.cpp.obj
 choose_game_v2.exe: CMakeFiles/choose_game_v2.dir/data_base.cpp.obj
 choose_game_v2.exe: CMakeFiles/choose_game_v2.dir/apk_window.cpp.obj
+choose_game_v2.exe: CMakeFiles/choose_game_v2.dir/parserdatabase.cpp.obj
 choose_game_v2.exe: CMakeFiles/choose_game_v2.dir/build.make
 choose_game_v2.exe: C:/Qt/6.8.1/mingw_64/lib/libQt6Sql.a
 choose_game_v2.exe: C:/Qt/6.8.1/mingw_64/lib/libQt6Widgets.a
+choose_game_v2.exe: C:/Qt/6.8.1/mingw_64/lib/libQt6Xml.a
 choose_game_v2.exe: C:/Qt/6.8.1/mingw_64/lib/libQt6Gui.a
 choose_game_v2.exe: C:/Qt/6.8.1/mingw_64/lib/libQt6Core.a
 choose_game_v2.exe: C:/Qt/6.8.1/mingw_64/lib/libQt6EntryPoint.a

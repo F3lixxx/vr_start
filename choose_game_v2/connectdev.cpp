@@ -1,4 +1,4 @@
-#include "connectdev.h"
+/*#include "connectdev.h"
 #include "ui_connectdev.h"
 
 connectDev::connectDev(QWidget *parent)
@@ -7,6 +7,7 @@ connectDev::connectDev(QWidget *parent)
 {
     ui->setupUi(this);
     this->setWindowTitle("Connected Devices");
+
     connect(ui->pb_checkDevice, &QPushButton::clicked, this, &connectDev::connected_dev);
     connect(ui->pb_setPort, &QPushButton::clicked, this, &connectDev::set_port);
 }
@@ -23,27 +24,27 @@ void connectDev::connected_dev(){
     connect (devices, &QProcess::readyReadStandardOutput, this, [this, devices](){
         QByteArray output = devices->readAllStandardOutput();
         ui->te_devices->append(QString::fromUtf8(output));
+        qDebug() << "Devices:" << output;
+        qDebug() << "================================================================================" << "\n";
     });
 
     connect (devices, &QProcess::readyReadStandardError, this, [this, devices](){
         QByteArray errorOutput = devices->readAllStandardError();
         ui->te_devices->append(QString::fromUtf8(errorOutput));
+        qDebug() << "Errors:" << errorOutput;
+        qDebug() << "================================================================================" << "\n";
     });
 
     devices->start();
 
     if(!devices->waitForFinished()){
         qDebug() << "Can't start ADB" << devices->errorString();
-    }else{
-        qDebug() << "ADB start successfully!";
     }
     devName();
     getIP();
     // set_port();
     ui->te_devices->append(QString());
 }
-
-
 
 bool connectDev::isDeviceConnected(const QString& ipAddress) {
     QProcess checkProcess;
@@ -88,8 +89,11 @@ QString connectDev::devName(){
     QString outputStr = QString::fromUtf8(devices.readAllStandardOutput()).trimmed();
     if (outputStr.isEmpty()) {
         qWarning() << "Модель устройства не найдена!";
+        qDebug() << "================================================================================" << "\n";
     }else{
         qDebug() << outputStr;
+        qDebug() << "================================================================================" << "\n";
+
     }
     deviceName = outputStr;
     return deviceName;
@@ -112,6 +116,7 @@ int connectDev::set_port(){
     ui->te_devices->append(QString::fromUtf8(set_port.readAllStandardOutput()));
     port = 5555;
     qDebug() << "IP-адрес устройства:" << port;
+    qDebug() << "================================================================================" << "\n";
     return port;
 }
 
@@ -145,8 +150,10 @@ QString connectDev::getIP(){
 
     if (get_IP.isEmpty()) {
         qWarning() << "IP-адрес не найден!";
+        qDebug() << "================================================================================" << "\n";
     } else {
         qDebug() << "IP-адрес устройства:" << get_IP;
+        qDebug() << "================================================================================" << "\n";
     }
 
     return get_IP;
@@ -156,3 +163,4 @@ connectDev::~connectDev()
 {
     delete ui;
 }
+*/

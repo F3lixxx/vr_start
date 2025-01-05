@@ -71,7 +71,7 @@ choose_game_v2_autogen/timestamp: C:/Qt/6.8.1/mingw_64/bin/moc.exe
 choose_game_v2_autogen/timestamp: C:/Qt/6.8.1/mingw_64/bin/uic.exe
 choose_game_v2_autogen/timestamp: CMakeFiles/choose_game_v2_autogen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\User\Documents\QT_Projects\vr_start\choose_game_v2\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target choose_game_v2"
-	"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/build/CMakeFiles/choose_game_v2_autogen.dir/AutogenInfo.json Debug
+	"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/build/CMakeFiles/choose_game_v2_autogen.dir/AutogenInfo.json RelWithDebInfo
 	"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/build/choose_game_v2_autogen/timestamp
 
 choose_game_v2_autogen: CMakeFiles/choose_game_v2_autogen

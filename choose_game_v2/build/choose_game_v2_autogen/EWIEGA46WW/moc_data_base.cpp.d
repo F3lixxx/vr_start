@@ -3,10 +3,14 @@ C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/build/choose_game_v2
   C:/Qt/6.8.1/mingw_64/include/QtCore/QByteArray \
   C:/Qt/6.8.1/mingw_64/include/QtCore/QDebug \
   C:/Qt/6.8.1/mingw_64/include/QtCore/QDir \
+  C:/Qt/6.8.1/mingw_64/include/QtCore/QFile \
+  C:/Qt/6.8.1/mingw_64/include/QtCore/QFileInfo \
   C:/Qt/6.8.1/mingw_64/include/QtCore/QProcess \
   C:/Qt/6.8.1/mingw_64/include/QtCore/QRegularExpression \
   C:/Qt/6.8.1/mingw_64/include/QtCore/QRegularExpressionMatch \
   C:/Qt/6.8.1/mingw_64/include/QtCore/QString \
+  C:/Qt/6.8.1/mingw_64/include/QtCore/QTextStream \
+  C:/Qt/6.8.1/mingw_64/include/QtCore/QXmlStreamReader \
   C:/Qt/6.8.1/mingw_64/include/QtCore/q20functional.h \
   C:/Qt/6.8.1/mingw_64/include/QtCore/q20iterator.h \
   C:/Qt/6.8.1/mingw_64/include/QtCore/q20memory.h \
@@ -139,6 +143,7 @@ C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/build/choose_game_v2
   C:/Qt/6.8.1/mingw_64/include/QtCore/qvariant.h \
   C:/Qt/6.8.1/mingw_64/include/QtCore/qvarlengtharray.h \
   C:/Qt/6.8.1/mingw_64/include/QtCore/qversiontagging.h \
+  C:/Qt/6.8.1/mingw_64/include/QtCore/qxmlstream.h \
   C:/Qt/6.8.1/mingw_64/include/QtCore/qxptype_traits.h \
   C:/Qt/6.8.1/mingw_64/include/QtCore/qyieldcpu.h \
   C:/Qt/6.8.1/mingw_64/include/QtGui/qaction.h \
@@ -187,6 +192,11 @@ C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/build/choose_game_v2
   C:/Qt/6.8.1/mingw_64/include/QtWidgets/qtwidgetsexports.h \
   C:/Qt/6.8.1/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
   C:/Qt/6.8.1/mingw_64/include/QtWidgets/qwidget.h \
+  C:/Qt/6.8.1/mingw_64/include/QtXml/QDomDocument \
+  C:/Qt/6.8.1/mingw_64/include/QtXml/qdom.h \
+  C:/Qt/6.8.1/mingw_64/include/QtXml/qtxml-config.h \
+  C:/Qt/6.8.1/mingw_64/include/QtXml/qtxmlexports.h \
+  C:/Qt/6.8.1/mingw_64/include/QtXml/qtxmlglobal.h \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/algorithm \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/array \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/atomic \
@@ -424,4 +434,5 @@ C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/build/choose_game_v2
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wctype.h \
   C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/apk_window.h \
-  C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/connectdev.h
+  C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/connectdev.h \
+  C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/parserdatabase.h

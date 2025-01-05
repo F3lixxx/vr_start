@@ -6,143 +6,201 @@ data_base::data_base(QWidget *parent)
     , ui(new Ui::data_base)
 {
     ui->setupUi(this);
-    informationDev = new connectDev;
     apkStart = new apk_window;
-}
 
-void data_base::create_DB(){
-    addDevices = QSqlDatabase::addDatabase("QSQLITE");
-
-    addDevices.setDatabaseName("device_table.db");
+    addDevices = QSqlDatabase::addDatabase("QSQLITE", "Devices");
+    addDevices.setDatabaseName("Device.db");
+    qDebug() << "Available drivers in Device DB:" << QSqlDatabase::drivers();
 
     if(!addDevices.open()){
-        qDebug() << addDevices.lastError().text();
+        qDebug() << "Failed to open Data Base Devices: " << addDevices.lastError().text();
+        qDebug() << "====================================================================\n";
         return;
     }
-
-    QSqlQuery a_query;
-
-    // Создаем таблицу, если она не существует
-    QString str_create = "CREATE TABLE IF NOT EXISTS Devices ("
-                         "Name VARCHAR(255) PRIMARY KEY NOT NULL,"
-                         "IP INTEGER,"
-                         "Port INTEGER);";
-    bool b = a_query.exec(str_create);
-
-    if (!b) {
-        qDebug() << "Table creation failed!" << a_query.lastError().text();
-        return;
+        QSqlQuery a_query(QSqlDatabase::database("Devices"));
+        QString str_create = "CREATE TABLE IF NOT EXISTS Devices ("
+            "Name TEXT PRIMARY KEY NOT NULL,"
+            "IP TEXT,"
+            "Port INTEGER);";
+        if (!a_query.exec(str_create)) {
+            qDebug() << "Failed to fetch table info:" << a_query.lastError().text();
+            return;
+        }
+        QStringList tables = addDevices.tables();
+        qDebug() << "Существующие таблицы в базе данных:" << tables;
     }
 
-    QString deviceName = informationDev->devName();
-    if (deviceName.isEmpty()) {
-        qWarning() << "Device name is empty. Cannot insert into database.";
-        return; // Прерываем выполнение, если имя устройства пустое
+
+bool data_base::searchInfo(){
+    QString deviceName;
+    QString IP;
+    int port = 5555;
+    QProcess *devices = new QProcess(this);
+
+    devices->setProgram(adb);
+    devices->setArguments(QStringList() << "devices");
+
+    QString command = adb + " " + devices->arguments().join(" ");
+    qDebug() << "Executing command:" << command;
+
+    connect (devices, &QProcess::readyReadStandardOutput, this, [this, devices](){
+        QByteArray output = devices->readAllStandardOutput();
+        qDebug() << "Devices:" << output;
+        qDebug() << "================================================================================" << "\n";
+    });
+
+    connect (devices, &QProcess::readyReadStandardError, this, [this, devices](){
+        QByteArray errorOutput = devices->readAllStandardError();
+        qDebug() << "Errors:" << errorOutput;
+        qDebug() << "================================================================================" << "\n";
+    });
+
+    devices->start();
+
+    if(!devices->waitForFinished()){
+        qDebug() << "Can't start ADB" << devices->errorString();
     }
 
-    // Вставляем данные в таблицу Devices
+    //процесс получения имени
+    QProcess *devicesName = new QProcess(this);
+    devicesName->setProgram(adb);
+    devicesName->setArguments(QStringList() << "shell" << "getprop" << "ro.product.model");
+    QString error = "can't get name";
+    // Составляем строку команды для вывода в qDebug
+    command = adb + " " + devicesName->arguments().join(" ");
+    qDebug() << "Executing command:" << command;
+
+    devicesName->start();
+    if(!devicesName->waitForFinished()){
+        qDebug() << "Can't start command adb shell getprop ro.product.model" << devices->errorString();
+        return false;
+    }else{
+        qDebug() << "ADB start command: adb shell getprop ro.product.model!";
+    }
+
+    QString outputStrName = QString::fromUtf8(devicesName->readAllStandardOutput()).trimmed();
+    if (outputStrName.isEmpty()) {
+        qWarning() << "Модель устройства не найдена!";
+        qDebug() << "================================================================================" << "\n";
+    }else{
+        qDebug() << outputStrName;
+        qDebug() << "================================================================================" << "\n";
+
+    }
+    deviceName = outputStrName;
+
+    //новый процесс получения IP
+    QProcess process_get_IP(this);
+
+    process_get_IP.setProgram(adb);
+    QStringList arguments = QStringList() << "shell" << "ip" << "addr" << "show" << "wlan0";
+    process_get_IP.setArguments(arguments);
+
+    command = adb + " " + process_get_IP.arguments().join(" ");
+    qDebug() << "Executing command:" << command;
+    process_get_IP.start();
+
+    if (!process_get_IP.waitForFinished()) {
+        qWarning() << "Не удалось получить IP-адрес!";
+    }else{
+        qDebug() << "ADB start command: adb shell ip addr show wlan0!";
+    }
+
+    QString outputStrIP = QString::fromUtf8(process_get_IP.readAllStandardOutput());
+    QStringList lines = outputStrIP.split('\n');
+
+    for (const QString &line : lines) {
+        if (line.contains("inet ")) {
+            QStringList parts = line.split(' ', Qt::SkipEmptyParts);
+            IP = parts[1].split('/')[0];
+            break;
+        }
+    }
+
+    if (IP.isEmpty()) {
+        qWarning() << "IP-адрес не найден!";
+        qDebug() << "================================================================================" << "\n";
+    } else {
+        qDebug() << "IP-адрес устройства:" << IP;
+        qDebug() << "================================================================================" << "\n";
+    }
+
+    // новый процесс назначения порта
+    QProcess set_port(this);
+
+    set_port.setProgram(adb);
+    set_port.setArguments(QStringList() << "tcpip" << "5555");
+
+    set_port.start();
+    if(!set_port.waitForFinished()){
+        qDebug() << "Can't start command adb tcpip 5555" << set_port.errorString();
+        return -1;
+    }else{
+        qDebug() << "ADB start: command adb tcpip 5555!";
+    }
+
+    port = 5555;
+    qDebug() << "Port устройства:" << port;
+    qDebug() << "================================================================================" << "\n";
+
+    return insertInfoDB(deviceName, IP, port);
+}
+
+bool data_base::insertInfoDB(const QString& Name, const QString IP, int port){
+    QSqlQuery a_query(QSqlDatabase::database("Devices"));
+
+    if (!addDevices.isOpen()) {
+        qDebug() << "Database is not open!";
+        return false;
+    }
+    //Проверка на существование записи
+    QString check_query = "SELECT COUNT(*) FROM Devices WHERE Name = :Name AND IP = :IP AND Port = :Port;";
+    a_query.prepare(check_query);
+    a_query.bindValue(":Name", Name);  // Привязываем значения
+    a_query.bindValue(":IP", IP);
+    a_query.bindValue(":Port", port);
+
+    if(!a_query.exec()){
+        qWarning() << "Check query failed!!!" << a_query.lastError().text();
+        return false;
+    }
+
+    a_query.next();
+    int count = a_query.value(0).toInt();
+
+    if(count > 0){
+        qDebug() << "Record is alredy exists. Skip insert";
+        return false;
+    }
+
+
     QString str_insert = "INSERT INTO Devices(Name, IP, Port) VALUES (:Name, :IP, :Port);";
+
     a_query.prepare(str_insert);
-    a_query.bindValue(":Name", informationDev->devName());  // Привязываем значения
-    a_query.bindValue(":IP", informationDev->getIP());
-    a_query.bindValue(":Port", informationDev->set_port());
+    a_query.bindValue(":Name", Name);
+    a_query.bindValue(":IP", IP);
+    a_query.bindValue(":Port", port);
 
-    b = a_query.exec();
-    if (!b) {
-        qDebug() << "Insert failed!" << a_query.lastError().text();
-        return;
+    if (!a_query.exec()) {
+        qDebug() << "Ошибка вставки данных в таблицу:" << a_query.lastError().text();
+        return false;
     }
 
-    qDebug() << "Device added successfully!";
-    QSqlRecord rec = a_query.record();
-    addDevices.close();
-}
+    qDebug() << "Данные успешно добавлены в таблицу 'Devices'." << Name << IP << port;
 
-void data_base::show_DB(){
-    model = new QSqlTableModel(this, addDevices);
-    model->setTable("Devices");
-    model->setEditStrategy(QSqlTableModel::OnManualSubmit);
-    model->select();
-    ui->tv_db->setModel(model);
-}
-
-data_base::~data_base()
-{
-    delete ui;
-}
-
-void data_base::connect_wifi(QString ipAddress){
-
-    QProcess *wifi_connect = new QProcess(this);
-
-    wifi_connect->setProgram(adb);
-    QStringList arguments = QStringList() << "connect" << ipAddress + ":5555 shell";
-    wifi_connect->setArguments(arguments);
-
-    // Составляем строку команды для вывода в qDebug
-    QString command = adb + " " + arguments.join(" ");
-    qDebug() << "Executing command:" << command;
-
-    wifi_connect->start();
-
-    if(!wifi_connect->waitForFinished()){
-        qDebug() << "Can't connect from wifi ADB!" << wifi_connect->errorString();
-    }else{
-        qDebug() << "ADB connected to wifi successfully!";
+    if (!a_query.isActive()) {
+        qDebug() << "Query is not active:" << a_query.lastError().text();
+        return false;
     }
 
-    QProcess *connect_dev = new QProcess(this);
-
-    connect_dev->setProgram(adb);
-    QStringList arguments_connectDev = QStringList() << "-s" << ipAddress + ":5555 shell";
-    wifi_connect->setArguments(arguments);
-
-    // Составляем строку команды для вывода в qDebug
-    QString commandConnectDev = adb + " " + arguments_connectDev.join(" ");
-    qDebug() << "Executing command:" << commandConnectDev;
-
-    connect_dev->start();
-
-    if(!connect_dev->waitForFinished()){
-        qDebug() << "Can't connect select device!" << connect_dev->errorString();
-    }else{
-        qDebug() << "ADB connected selected device successfully!";
+    if (addDevices.isOpen()) {
+        addDevices.close();
+        qDebug() << "Device Data Base closed";
     }
+
+    return true;
 }
 
-// void data_base::on_pb_connect_clicked()
-// {
-//     model->select();
-// }
-
-void data_base::on_pb_delete_clicked()
-{
-    model->removeRow(currentRow);
-    model->submitAll();
-    model->select();
+data_base::~data_base(){
+    QSqlDatabase::removeDatabase("Devices");
 }
-
-void data_base::on_tv_db_clicked(const QModelIndex &index)
-{
-    currentRow = index.row();
-    currentColumn = index.column();
-
-    // Извлекаем IP-адрес из выбранной строки
-    QModelIndex ipIndex = model->index(currentRow, 1);  // 1 - это индекс столбца IP
-    QString ipAddress = model->data(ipIndex).toString();
-
-    qDebug() << "Selected IP Address: " << ipAddress;
-    connect_wifi(ipAddress);  // Пример использования IP-адреса для подключения
-    apkStart->show();
-
-    QProcess *wifi_connect = new QProcess(this);
-
-    wifi_connect->setProgram(adb);
-    QStringList arguments = QStringList() << "devices";
-    wifi_connect->setArguments(arguments);
-
-    // Составляем строку команды для вывода в qDebug
-    QString command = adb + " " + arguments.join(" ");
-    qDebug() << "Executing command:" << command;
-}
-

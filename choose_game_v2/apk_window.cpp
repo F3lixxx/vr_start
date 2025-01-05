@@ -27,31 +27,6 @@ void apk_window::start_apk(){
     } else {
         qDebug() << "Program install started successfully!";
     }
-
-
-    // QProcess *package = new QProcess(this);
-
-    // // Формируем команду для запуска
-    // QString command = package_name + "/" + activity_name;
-
-    // package->setProgram(adb);  // Устанавливаем программу
-    // package->setArguments(QStringList() << "shell" << "am" << "start" << "-n" << command);  // Передаем аргументы
-
-    // package->start();
-
-    // if (!package->waitForStarted()) {
-    //     qDebug() << "Can't start ADB:" << package->errorString();
-    //     return;
-    // } else {
-    //     qDebug() << "Program started successfully!";
-    // }
-
-    // connect(package, &QProcess::readyReadStandardOutput, [package]() {
-    //     qDebug() << package->readAllStandardOutput();
-    // });
-    // qDebug() << "Package name: " << package_name;
-    // qDebug() << "Activity name: " << activity_name;
-    // qDebug() << "path: " << apkPath;
 }
 
 apk_window::~apk_window()

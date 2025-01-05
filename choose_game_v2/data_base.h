@@ -15,6 +15,7 @@
 
 #include "connectdev.h"
 #include "apk_window.h"
+#include "parserdatabase.h"
 
 namespace Ui {
 class data_base;
@@ -29,18 +30,19 @@ public:
     ~data_base();
 
 //работа с Базой данных
-    void create_DB();
-    void show_DB();
-    void connect_wifi(QString ipAddress);
+    // void create_DB();
+    // void show_DB();
+    // void connect_wifi(QString ipAddress);
 //конец создания БД
 
 
+    bool searchInfo();
+
 private slots:
-    // void on_pb_connect_clicked();
 
-    void on_tv_db_clicked(const QModelIndex &index);
+    // void on_tv_db_clicked(const QModelIndex &index);
 
-    void on_pb_delete_clicked();
+    // void on_pb_delete_clicked();
 
 private:
     Ui::data_base *ui;
@@ -51,6 +53,9 @@ private:
     QSqlTableModel *model;
     int currentRow;
     int currentColumn;
+    ParserDataBase *parse;
+
+    bool insertInfoDB(const QString& Name, const QString IP, int port);
 };
 
 #endif // DATA_BASE_H

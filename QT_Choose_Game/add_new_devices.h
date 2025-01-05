@@ -12,7 +12,6 @@
 #include <QDebug>
 #include <QSqlTableModel>
 
-
 #include "getdeviceip.h"
 
 namespace Ui {

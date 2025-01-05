@@ -21,6 +21,7 @@ endif()
 find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
 find_package(Qt6 REQUIRED COMPONENTS Sql)
+find_package(Qt6 REQUIRED COMPONENTS Xml)
 
 
 set(PROJECT_SOURCES
@@ -34,9 +35,10 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(choose_game_v2
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
-        connectdev.h connectdev.cpp connectdev.ui
+       # connectdev.h connectdev.cpp connectdev.ui
         data_base.h data_base.cpp data_base.ui
         apk_window.h apk_window.cpp apk_window.ui
+        parserdatabase.h parserdatabase.cpp parserdatabase.ui
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET choose_game_v2 APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
@@ -58,6 +60,7 @@ endif()
 
 target_link_libraries(choose_game_v2 PRIVATE Qt6::Sql)
 target_link_libraries(choose_game_v2 PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
+target_link_libraries(choose_game_v2 PRIVATE Qt6::Xml)
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
 # If you are developing for iOS or macOS you should consider setting an

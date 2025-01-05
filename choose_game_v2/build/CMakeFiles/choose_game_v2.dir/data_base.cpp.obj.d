@@ -436,12 +436,26 @@ CMakeFiles/choose_game_v2.dir/data_base.cpp.obj: \
  C:/Qt/6.8.1/mingw_64/include/QtSql/qsqlquerymodel.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qabstractitemmodel.h \
  C:\Users\User\Documents\QT_Projects\vr_start\choose_game_v2\connectdev.h \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/QFile \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/qfile.h \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/QFileInfo \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/qfileinfo.h \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/QTextStream \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/qtextstream.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/QByteArray \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qbytearray.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/QRegularExpression \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qregularexpression.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/QRegularExpressionMatch \
  C:\Users\User\Documents\QT_Projects\vr_start\choose_game_v2\apk_window.h \
+ C:\Users\User\Documents\QT_Projects\vr_start\choose_game_v2\parserdatabase.h \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/QXmlStreamReader \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/qxmlstream.h \
+ C:/Qt/6.8.1/mingw_64/include/QtXml/QDomDocument \
+ C:/Qt/6.8.1/mingw_64/include/QtXml/qdom.h \
+ C:/Qt/6.8.1/mingw_64/include/QtXml/qtxmlglobal.h \
+ C:/Qt/6.8.1/mingw_64/include/QtXml/qtxml-config.h \
+ C:/Qt/6.8.1/mingw_64/include/QtXml/qtxmlexports.h \
  C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/build/choose_game_v2_autogen/include/ui_data_base.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/QVariant \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qvariant.h \
