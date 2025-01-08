@@ -4,7 +4,6 @@
 #include <QMainWindow>
 #include <windows.h>
 
-// #include "connectdev.h"
 #include "data_base.h"
 #include "parserdatabase.h"
 
@@ -23,7 +22,6 @@ public:
     ~MainWindow();
 
 private slots:
-    // void on_pb_check_dev_clicked();
 
     void on_pb_openDB_clicked();
 
@@ -31,7 +29,6 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
-    // connectDev *winConDev;
     data_base *dbWin;
     ParserDataBase *parserxml;
 };

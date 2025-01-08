@@ -466,7 +466,6 @@ CMakeFiles/Choose_Game.dir/Choose_Game_autogen/mocs_compilation.cpp.obj: \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qmessagebox.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qdialog.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qdialogbuttonbox.h \
- C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream \
  C:/Qt/6.8.1/mingw_64/include/QtGui/QIntValidator \
  C:/Qt/6.8.1/mingw_64/include/QtGui/qvalidator.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qregularexpression.h \

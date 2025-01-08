@@ -35,7 +35,6 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(choose_game_v2
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
-       # connectdev.h connectdev.cpp connectdev.ui
         data_base.h data_base.cpp data_base.ui
         apk_window.h apk_window.cpp apk_window.ui
         parserdatabase.h parserdatabase.cpp parserdatabase.ui

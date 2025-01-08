@@ -12,6 +12,7 @@
 #include <QDir>
 #include <QSqlTableModel>
 #include <QDebug>
+#include <QMessageBox>
 
 #include "connectdev.h"
 #include "apk_window.h"
@@ -29,20 +30,15 @@ public:
     explicit data_base(QWidget *parent = nullptr);
     ~data_base();
 
-//работа с Базой данных
-    // void create_DB();
-    // void show_DB();
-    // void connect_wifi(QString ipAddress);
-//конец создания БД
-
-
     bool searchInfo();
 
 private slots:
 
-    // void on_tv_db_clicked(const QModelIndex &index);
+    void on_pb_delete_clicked();
 
-    // void on_pb_delete_clicked();
+    void on_tv_db_clicked(const QModelIndex &index);
+
+    void on_pb_connect_clicked();
 
 private:
     Ui::data_base *ui;

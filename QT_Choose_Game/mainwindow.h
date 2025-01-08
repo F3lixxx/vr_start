@@ -4,6 +4,7 @@
 #include <QMainWindow>
 #include <cstdlib>
 #include <QByteArray>
+#include <QSqlTableModel>
 
 #include "second_window.h"
 #include "add_new_devices.h"
@@ -21,21 +22,16 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
-//PushButton start
-    void window_install_device();
-    void window_choose_game();
-//end
 
     void connected_devices();
     void readOutput();
     void readError();
 
-private slots:
-    void on_pb_devices_clicked();
 
 private:
     Ui::MainWindow *ui;
     second_window* sec_win;
     add_new_devices* add_device;
+    QSqlTableModel* model;
 };
 #endif // MAINWINDOW_H

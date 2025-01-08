@@ -964,8 +964,11 @@ C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/mainwindow.h
  mdp:C:/Qt/6.8.1/mingw_64/include/QtSql/qtsqlglobal.h
  mdp:C:/Qt/6.8.1/mingw_64/include/QtWidgets/QDialog
  mdp:C:/Qt/6.8.1/mingw_64/include/QtWidgets/QMainWindow
+ mdp:C:/Qt/6.8.1/mingw_64/include/QtWidgets/QMessageBox
  mdp:C:/Qt/6.8.1/mingw_64/include/QtWidgets/qdialog.h
+ mdp:C:/Qt/6.8.1/mingw_64/include/QtWidgets/qdialogbuttonbox.h
  mdp:C:/Qt/6.8.1/mingw_64/include/QtWidgets/qmainwindow.h
+ mdp:C:/Qt/6.8.1/mingw_64/include/QtWidgets/qmessagebox.h
  mdp:C:/Qt/6.8.1/mingw_64/include/QtWidgets/qsizepolicy.h
  mdp:C:/Qt/6.8.1/mingw_64/include/QtWidgets/qtabwidget.h
  mdp:C:/Qt/6.8.1/mingw_64/include/QtWidgets/qtwidgets-config.h
@@ -1646,7 +1649,10 @@ C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/data_base.h
  mdp:C:/Qt/6.8.1/mingw_64/include/QtSql/qtsqlexports.h
  mdp:C:/Qt/6.8.1/mingw_64/include/QtSql/qtsqlglobal.h
  mdp:C:/Qt/6.8.1/mingw_64/include/QtWidgets/QDialog
+ mdp:C:/Qt/6.8.1/mingw_64/include/QtWidgets/QMessageBox
  mdp:C:/Qt/6.8.1/mingw_64/include/QtWidgets/qdialog.h
+ mdp:C:/Qt/6.8.1/mingw_64/include/QtWidgets/qdialogbuttonbox.h
+ mdp:C:/Qt/6.8.1/mingw_64/include/QtWidgets/qmessagebox.h
  mdp:C:/Qt/6.8.1/mingw_64/include/QtWidgets/qsizepolicy.h
  mdp:C:/Qt/6.8.1/mingw_64/include/QtWidgets/qtwidgets-config.h
  mdp:C:/Qt/6.8.1/mingw_64/include/QtWidgets/qtwidgetsexports.h

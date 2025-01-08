@@ -8,9 +8,14 @@ MainWindow::MainWindow(QWidget *parent)
     ui->setupUi(this);
     sec_win = new second_window(this);
     add_device = new add_new_devices(this);
-    connect(ui->pb_choose_device, &QPushButton::clicked, this, &MainWindow::window_choose_game);
-    connect(ui->pb_check_new_device, &QPushButton::clicked, this, &MainWindow::window_install_device);
-    connect(ui->pb_devices, &QPushButton::clicked, this, &MainWindow::on_pb_devices_clicked);
+
+    model = new QSqlTableModel(this);
+    model->setTable("Devices");
+    model->select();
+    ui->tv_device_db->setModel(model);
+    // connect(ui->pb_choose_device, &QPushButton::clicked, this, &MainWindow::window_choose_game);
+    // connect(ui->pb_check_new_device, &QPushButton::clicked, this, &MainWindow::window_install_device);
+    // connect(ui->pb_devices, &QPushButton::clicked, this, &MainWindow::on_pb_devices_clicked);
 
 }
 
@@ -45,19 +50,6 @@ void MainWindow::readError() {
         QByteArray error = process->readAllStandardError();
         qDebug() << "Error: " << error;  // Логируем ошибки
     }
-}
-
-void MainWindow::on_pb_devices_clicked()
-{
-    add_device->show();
-}
-
-void MainWindow::window_install_device(){
-    connect(ui->pb_check_new_device, &QPushButton::clicked, add_device, &add_new_devices::add_dev);
-}
-
-void MainWindow::window_choose_game(){
-    sec_win->show();
 }
 
 MainWindow::~MainWindow()

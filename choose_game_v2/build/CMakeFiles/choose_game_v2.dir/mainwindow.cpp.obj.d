@@ -679,6 +679,10 @@ CMakeFiles/choose_game_v2.dir/mainwindow.cpp.obj: \
  C:/Qt/6.8.1/mingw_64/include/QtSql/qsqltablemodel.h \
  C:/Qt/6.8.1/mingw_64/include/QtSql/qsqlquerymodel.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qabstractitemmodel.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/QMessageBox \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qmessagebox.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qdialog.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qdialogbuttonbox.h \
  C:\Users\User\Documents\QT_Projects\vr_start\choose_game_v2\connectdev.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/QFile \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qfile.h \
@@ -721,6 +725,22 @@ CMakeFiles/choose_game_v2.dir/mainwindow.cpp.obj: \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qlayoutitem.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qboxlayout.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qgridlayout.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/QHeaderView \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qheaderview.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qabstractitemview.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qabstractscrollarea.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qframe.h \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/qitemselectionmodel.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qstyleoption.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qabstractspinbox.h \
+ C:/Qt/6.8.1/mingw_64/include/QtGui/qvalidator.h \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/qregularexpression.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qslider.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qabstractslider.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qstyle.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qtabbar.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qrubberband.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/QMainWindow \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/QMenuBar \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qmenubar.h \
@@ -730,5 +750,7 @@ CMakeFiles/choose_game_v2.dir/mainwindow.cpp.obj: \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qabstractbutton.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/QStatusBar \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qstatusbar.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/QTableView \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qtableview.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/QWidget \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qwidget.h

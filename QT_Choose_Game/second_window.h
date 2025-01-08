@@ -7,7 +7,6 @@
 #include <QMessageBox>
 #include <QString>
 #include <QDebug>
-#include <iostream>
 #include <cstdlib>
 #include <QIntValidator>
 #include <QRegularExpressionValidator>

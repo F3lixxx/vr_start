@@ -187,8 +187,11 @@ C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/build/choose_game_v2
   C:/Qt/6.8.1/mingw_64/include/QtSql/qtsqlglobal.h \
   C:/Qt/6.8.1/mingw_64/include/QtWidgets/QDialog \
   C:/Qt/6.8.1/mingw_64/include/QtWidgets/QMainWindow \
+  C:/Qt/6.8.1/mingw_64/include/QtWidgets/QMessageBox \
   C:/Qt/6.8.1/mingw_64/include/QtWidgets/qdialog.h \
+  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qdialogbuttonbox.h \
   C:/Qt/6.8.1/mingw_64/include/QtWidgets/qmainwindow.h \
+  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qmessagebox.h \
   C:/Qt/6.8.1/mingw_64/include/QtWidgets/qsizepolicy.h \
   C:/Qt/6.8.1/mingw_64/include/QtWidgets/qtabwidget.h \
   C:/Qt/6.8.1/mingw_64/include/QtWidgets/qtwidgets-config.h \

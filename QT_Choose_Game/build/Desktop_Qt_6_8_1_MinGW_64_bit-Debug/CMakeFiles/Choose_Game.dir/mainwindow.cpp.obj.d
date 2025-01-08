@@ -374,6 +374,15 @@ CMakeFiles/Choose_Game.dir/mainwindow.cpp.obj: \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qtabwidget.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/QByteArray \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qbytearray.h \
+ C:/Qt/6.8.1/mingw_64/include/QtSql/QSqlTableModel \
+ C:/Qt/6.8.1/mingw_64/include/QtSql/qsqltablemodel.h \
+ C:/Qt/6.8.1/mingw_64/include/QtSql/qtsqlglobal.h \
+ C:/Qt/6.8.1/mingw_64/include/QtSql/qtsql-config.h \
+ C:/Qt/6.8.1/mingw_64/include/QtSql/qtsqlexports.h \
+ C:/Qt/6.8.1/mingw_64/include/QtSql/qsqldatabase.h \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/qmetaobject.h \
+ C:/Qt/6.8.1/mingw_64/include/QtSql/qsqlquerymodel.h \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/qabstractitemmodel.h \
  C:\Users\User\Documents\QT_Projects\vr_start\QT_Choose_Game\second_window.h \
  C:\Users\User\Documents\QT_Projects\vr_start\QT_Choose_Game\apkfile.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/QProcess \
@@ -389,20 +398,6 @@ CMakeFiles/Choose_Game.dir/mainwindow.cpp.obj: \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qstring.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/QDebug \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qdebug.h \
- C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream \
- C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream \
- C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ios \
- C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.h \
- C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.h \
- C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwctype \
- C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wctype.h \
- C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
- C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
- C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.tcc \
- C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.tcc \
- C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream.tcc \
- C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
- C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc \
  C:/Qt/6.8.1/mingw_64/include/QtGui/QIntValidator \
  C:/Qt/6.8.1/mingw_64/include/QtGui/qvalidator.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qregularexpression.h \
@@ -411,13 +406,8 @@ CMakeFiles/Choose_Game.dir/mainwindow.cpp.obj: \
  C:\Users\User\Documents\QT_Projects\vr_start\QT_Choose_Game\add_new_devices.h \
  C:/Qt/6.8.1/mingw_64/include/QtSql/QSqlDatabase \
  C:/Qt/6.8.1/mingw_64/include/QtSql/qsqldatabase.h \
- C:/Qt/6.8.1/mingw_64/include/QtSql/qtsqlglobal.h \
- C:/Qt/6.8.1/mingw_64/include/QtSql/qtsql-config.h \
- C:/Qt/6.8.1/mingw_64/include/QtSql/qtsqlexports.h \
- C:/Qt/6.8.1/mingw_64/include/QtCore/qmetaobject.h \
  C:/Qt/6.8.1/mingw_64/include/QtSql/QSqlQuery \
  C:/Qt/6.8.1/mingw_64/include/QtSql/qsqlquery.h \
- C:/Qt/6.8.1/mingw_64/include/QtSql/qsqldatabase.h \
  C:/Qt/6.8.1/mingw_64/include/QtSql/QSqlRecord \
  C:/Qt/6.8.1/mingw_64/include/QtSql/qsqlrecord.h \
  C:/Qt/6.8.1/mingw_64/include/QtSql/QSqlError \
@@ -433,6 +423,12 @@ CMakeFiles/Choose_Game.dir/mainwindow.cpp.obj: \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_fwd.h \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_path.h \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/locale \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.h \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwctype \
+ C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wctype.h \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.tcc \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets_nonio.h \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/time_members.h \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/messages_members.h \
@@ -442,16 +438,19 @@ CMakeFiles/Choose_Game.dir/mainwindow.cpp.obj: \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iomanip \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/quoted_string.h \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/sstream \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ios \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.h \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.tcc \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream.tcc \
+ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/sstream.tcc \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/codecvt \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_dir.h \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_ops.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qfileinfo.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qtimezone.h \
- C:/Qt/6.8.1/mingw_64/include/QtSql/QSqlTableModel \
- C:/Qt/6.8.1/mingw_64/include/QtSql/qsqltablemodel.h \
- C:/Qt/6.8.1/mingw_64/include/QtSql/qsqlquerymodel.h \
- C:/Qt/6.8.1/mingw_64/include/QtCore/qabstractitemmodel.h \
  C:\Users\User\Documents\QT_Projects\vr_start\QT_Choose_Game\getdeviceip.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/QCoreApplication \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qcoreapplication.h \
@@ -480,6 +479,21 @@ CMakeFiles/Choose_Game.dir/mainwindow.cpp.obj: \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qlayoutitem.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qboxlayout.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qgridlayout.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/QHeaderView \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qheaderview.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qabstractitemview.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qabstractscrollarea.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qframe.h \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/qitemselectionmodel.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qstyleoption.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qabstractspinbox.h \
+ C:/Qt/6.8.1/mingw_64/include/QtGui/qvalidator.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qslider.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qabstractslider.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qstyle.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qtabbar.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qrubberband.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/QMainWindow \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/QMenuBar \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qmenubar.h \
@@ -489,5 +503,7 @@ CMakeFiles/Choose_Game.dir/mainwindow.cpp.obj: \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qabstractbutton.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/QStatusBar \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qstatusbar.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/QTableView \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qtableview.h \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/QWidget \
  C:/Qt/6.8.1/mingw_64/include/QtWidgets/qwidget.h

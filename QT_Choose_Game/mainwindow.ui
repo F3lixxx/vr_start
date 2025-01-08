@@ -33,53 +33,22 @@
     </sizepolicy>
    </property>
    <layout class="QGridLayout" name="gridLayout">
-    <item row="0" column="0">
-     <widget class="QPushButton" name="pb_check_new_device">
-      <property name="styleSheet">
-       <string notr="true">QPushButton {
-    background-color: #f5f5f5; /* белый фон по умолчанию */
-    color: black;
-    font-size: 14px;
-	border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 10px;
-}
-
-QPushButton:hover {
-    background-color: #e6e6e6; /* Тёмно-белый фон при наведении */
-}</string>
-      </property>
+    <item row="3" column="1">
+     <widget class="QPushButton" name="pb_delete">
       <property name="text">
-       <string>Check new Device</string>
+       <string>Удалить</string>
       </property>
      </widget>
     </item>
-    <item row="0" column="1">
-     <widget class="QPushButton" name="pb_choose_device">
-      <property name="styleSheet">
-       <string notr="true">QPushButton {
-    background-color: #4CAF50; /* Зелёный фон по умолчанию */
-    color: white;
-    font-size: 14px;
-    border-radius: 5px;
-    padding: 10px;
-}
-
-QPushButton:hover {
-    background-color: #45a049; /* Тёмно-зелёный фон при наведении */
-}</string>
-      </property>
+    <item row="3" column="0">
+     <widget class="QPushButton" name="pb_add">
       <property name="text">
-       <string>Choose device for connect</string>
+       <string>Добавить</string>
       </property>
      </widget>
     </item>
-    <item row="1" column="1">
-     <widget class="QPushButton" name="pb_devices">
-      <property name="text">
-       <string>Connected Devices</string>
-      </property>
-     </widget>
+    <item row="2" column="0" colspan="2">
+     <widget class="QTableView" name="tv_device_db"/>
     </item>
    </layout>
   </widget>
@@ -95,9 +64,6 @@ QPushButton:hover {
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
- <tabstops>
-  <tabstop>pb_choose_device</tabstop>
- </tabstops>
  <resources/>
  <connections/>
 </ui>

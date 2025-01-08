@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-RelWithDebInfo-a2dbd46d05dc8a407f29.json",
+					"jsonFile" : "directory-.-RelWithDebInfo-7c25a91a7063a0aef5c6.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "choose_game_v2::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-choose_game_v2-RelWithDebInfo-3e7c723a426f51c17248.json",
+					"jsonFile" : "target-choose_game_v2-RelWithDebInfo-014bab61ea91ffb34062.json",
 					"name" : "choose_game_v2",
 					"projectIndex" : 0
 				},

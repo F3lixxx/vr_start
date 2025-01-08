@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>302</width>
-    <height>361</height>
+    <width>440</width>
+    <height>445</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -15,7 +15,7 @@
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout">
-    <item row="2" column="0">
+    <item row="3" column="0">
      <widget class="QPushButton" name="pb_openDB">
       <property name="styleSheet">
        <string notr="true">QPushButton {
@@ -37,6 +37,27 @@ QPushButton:hover {
      </widget>
     </item>
     <item row="1" column="0">
+     <widget class="QPushButton" name="pb_check_dev">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #f5f5f5; /* белый фон по умолчанию */
+    color: black;
+    font-size: 14px;
+	border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+QPushButton:hover {
+    background-color: #e6e6e6; /* Тёмно-белый фон при наведении */
+}</string>
+      </property>
+      <property name="text">
+       <string>Check connected device</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
      <widget class="QPushButton" name="pb_openDBxml">
       <property name="styleSheet">
        <string notr="true">QPushButton {
@@ -58,25 +79,7 @@ QPushButton:hover {
      </widget>
     </item>
     <item row="0" column="0">
-     <widget class="QPushButton" name="pb_check_dev">
-      <property name="styleSheet">
-       <string notr="true">QPushButton {
-    background-color: #f5f5f5; /* белый фон по умолчанию */
-    color: black;
-    font-size: 14px;
-	border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 10px;
-}
-
-QPushButton:hover {
-    background-color: #e6e6e6; /* Тёмно-белый фон при наведении */
-}</string>
-      </property>
-      <property name="text">
-       <string>Check connected device</string>
-      </property>
-     </widget>
+     <widget class="QTableView" name="tv_deviceDB"/>
     </item>
    </layout>
   </widget>
@@ -85,7 +88,7 @@ QPushButton:hover {
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>302</width>
+     <width>440</width>
      <height>22</height>
     </rect>
    </property>

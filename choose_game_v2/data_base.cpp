@@ -10,6 +10,7 @@ data_base::data_base(QWidget *parent)
 
     addDevices = QSqlDatabase::addDatabase("QSQLITE", "Devices");
     addDevices.setDatabaseName("Device.db");
+    model = new QSqlTableModel(this, addDevices);
     qDebug() << "Available drivers in Device DB:" << QSqlDatabase::drivers();
 
     if(!addDevices.open()){
@@ -28,7 +29,15 @@ data_base::data_base(QWidget *parent)
         }
         QStringList tables = addDevices.tables();
         qDebug() << "Существующие таблицы в базе данных:" << tables;
-    }
+
+        model->setTable("Devices");
+        model->select();
+        if (!model->select()) {
+            QMessageBox::critical(this, "Ошибка", "Не удалось загрузить данные из таблицы.");
+            return;
+        }
+        ui->tv_db->setModel(model);
+}
 
 
 bool data_base::searchInfo(){
@@ -193,6 +202,14 @@ bool data_base::insertInfoDB(const QString& Name, const QString IP, int port){
         return false;
     }
 
+    model->setTable("Devices");
+    model->select();
+    if (!model->select()) {
+        QMessageBox::critical(this, "Ошибка", "Не удалось загрузить данные из таблицы.");
+        return false;
+    }
+    ui->tv_db->setModel(model);
+
     if (addDevices.isOpen()) {
         addDevices.close();
         qDebug() << "Device Data Base closed";
@@ -200,6 +217,61 @@ bool data_base::insertInfoDB(const QString& Name, const QString IP, int port){
 
     return true;
 }
+
+void data_base::on_pb_delete_clicked()
+{
+    model->removeRow(currentRow);
+    model->select();
+}
+
+
+void data_base::on_tv_db_clicked(const QModelIndex &index)
+{
+    currentRow = index.row();
+}
+
+
+void data_base::on_pb_connect_clicked()
+{
+    // Получаем индекс выбранной строки
+    QModelIndex index = ui->tv_db->currentIndex();
+    if (!index.isValid()) {
+        QMessageBox::warning(this, "Ошибка", "Пожалуйста, выберите устройство из списка.");
+        return;
+    }
+
+    // Получаем данные устройства из модели
+    QString deviceName = model->data(model->index(index.row(), 0)).toString(); // Имя устройства
+    QString IP = model->data(model->index(index.row(), 1)).toString(); // IP устройства
+    int port = model->data(model->index(index.row(), 2)).toInt(); // Порт устройства
+
+    // Формируем команду для подключения
+    QProcess connectProcess(this);
+    connectProcess.setProgram(adb);
+    connectProcess.setArguments(QStringList() << "connect" << QString("%1:%2").arg(IP).arg(port));
+
+    // Запускаем процесс подключения
+    connectProcess.start();
+    if (!connectProcess.waitForFinished()) {
+        qDebug() << "Не удалось подключиться к устройству:" << connectProcess.errorString();
+        QMessageBox::critical(this, "Ошибка", "Не удалось подключиться к устройству.");
+        return;
+    }
+
+    // Читаем вывод команды
+    QString output = QString::fromUtf8(connectProcess.readAllStandardOutput()).trimmed();
+    QString errorOutput = QString::fromUtf8(connectProcess.readAllStandardError()).trimmed();
+
+    // Проверяем вывод на наличие ошибок
+    if (errorOutput.contains("unable to connect")) {
+        QMessageBox::critical(this, "Ошибка", "Не удалось подключиться к устройству. Проверьте IP и порт.");
+        return;
+    }
+
+    // Если подключение прошло успешно
+    QMessageBox::information(this, "Успех", QString("Успешно подключено к %1 (%2:%3)").arg(deviceName).arg(IP).arg(port));
+}
+
 
 data_base::~data_base(){
     QSqlDatabase::removeDatabase("Devices");

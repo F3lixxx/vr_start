@@ -435,6 +435,10 @@ CMakeFiles/choose_game_v2.dir/data_base.cpp.obj: \
  C:/Qt/6.8.1/mingw_64/include/QtSql/qsqltablemodel.h \
  C:/Qt/6.8.1/mingw_64/include/QtSql/qsqlquerymodel.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qabstractitemmodel.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/QMessageBox \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qmessagebox.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qdialog.h \
+ C:/Qt/6.8.1/mingw_64/include/QtWidgets/qdialogbuttonbox.h \
  C:\Users\User\Documents\QT_Projects\vr_start\choose_game_v2\connectdev.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/QFile \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qfile.h \
