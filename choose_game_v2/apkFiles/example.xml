@@ -1,0 +1,3 @@
+<manifest package = "package Name">
+    <activity android:name = "android Name"/>
+    </manifest>

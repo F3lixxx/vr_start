@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include <windows.h>
+#include <QSqlTableModel>
 
 #include "data_base.h"
 #include "parserdatabase.h"
@@ -27,9 +28,16 @@ private slots:
 
     void on_pb_openDBxml_clicked();
 
+    void on_tv_deviceDB_clicked(const QModelIndex &index);
+
 private:
     Ui::MainWindow *ui;
+    QSqlTableModel *model;
+    QSqlDatabase parse_db;
     data_base *dbWin;
     ParserDataBase *parserxml;
+
+    int currentRow;
+    int currentColumn;
 };
 #endif // MAINWINDOW_H

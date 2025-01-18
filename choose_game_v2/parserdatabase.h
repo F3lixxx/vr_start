@@ -9,6 +9,8 @@
 #include <QDomDocument>
 #include <QFile>
 #include <QSqlDatabase>
+#include <QSqlTableModel>
+#include <QMessageBox>
 #include <QSqlQuery>
 #include <QSqlError>
 #include <QDebug>
@@ -32,6 +34,7 @@ public:
 private:
     Ui::ParserDataBase *ui;
     QSqlDatabase parse_db;
+    QSqlTableModel *modelParser;
     bool insertIntoDB(const QString& packageName, const QString& activityName);
 };
 

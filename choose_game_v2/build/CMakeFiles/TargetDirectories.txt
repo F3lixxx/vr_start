@@ -1,9 +1,0 @@
-C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/build/CMakeFiles/choose_game_v2.dir
-C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/build/CMakeFiles/edit_cache.dir
-C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/build/CMakeFiles/rebuild_cache.dir
-C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/build/CMakeFiles/list_install_components.dir
-C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/build/CMakeFiles/install.dir
-C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/build/CMakeFiles/install/local.dir
-C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/build/CMakeFiles/install/strip.dir
-C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/build/CMakeFiles/choose_game_v2_autogen_timestamp_deps.dir
-C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/build/CMakeFiles/choose_game_v2_autogen.dir

@@ -10,6 +10,10 @@ ParserDataBase::ParserDataBase(QWidget *parent)
     parse_db = QSqlDatabase::addDatabase("QSQLITE", "Parser");
     parse_db.setDatabaseName("ParseXML.db");
     qDebug() << "Available drivers in Parser DB:" << QSqlDatabase::drivers();
+    modelParser = new QSqlTableModel(this, parse_db);
+
+    modelParser->select();
+
 
     if(!parse_db.open()){
         qDebug() << "Failed to open Data Base ParseXML: " << parse_db.lastError().text();
@@ -42,6 +46,14 @@ ParserDataBase::ParserDataBase(QWidget *parent)
             qDebug() << "====================================================================\n";
         }
     }
+
+    modelParser->setTable("ManifestData");
+    modelParser->select();
+    if (!modelParser->select()) {
+        QMessageBox::critical(this, "Ошибка", "Не удалось загрузить данные из таблицы.Parser");
+        return;
+    }
+    ui->tv_dataBase->setModel(modelParser);
 }
 
 bool ParserDataBase::parseXml(const QString& filePath){
@@ -81,6 +93,7 @@ bool ParserDataBase::parseXml(const QString& filePath){
         return false;
     }
 
+    modelParser->select();
     return insertIntoDB(packageName, activityName);
 }
 

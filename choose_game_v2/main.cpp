@@ -48,7 +48,7 @@ int main(int argc, char *argv[])
 
     MainWindow w;
 
-    QString parsexml = "C:\\Users\\User\\Documents\\QT_Projects\\vr_start\\choose_game_v2\\build\\apkFiles";
+    QString parsexml = "C:\\Users\\User\\Documents\\QT_Projects\\vr_start\\choose_game_v2\\apkFiles";
     ParserDataBase parse;
     if(parse.parseFolder(parsexml)){
         qDebug() << "XML parsed and data stored successfully.\n";
