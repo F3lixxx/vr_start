@@ -14,6 +14,7 @@
 #include <QSqlQuery>
 #include <QSqlError>
 #include <QDebug>
+#include <QProcess>
 
 namespace Ui {
 class ParserDataBase;
@@ -30,12 +31,16 @@ public:
     bool parseFolder(const QString &folderPath);
     bool isFileProcessed(const QString& fileName);
     bool markFileAsProcessed(const QString& fileName);
+    bool startActivity();
 
 private:
     Ui::ParserDataBase *ui;
     QSqlDatabase parse_db;
     QSqlTableModel *modelParser;
+    QString adb = "cd /../../platform-tools/adb.exe";
     bool insertIntoDB(const QString& packageName, const QString& activityName);
+    const QString packageName;
+    const QString activityName;
 };
 
 #endif // PARSERDATABASE_H

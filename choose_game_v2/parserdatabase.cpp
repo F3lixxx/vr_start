@@ -182,6 +182,46 @@ bool ParserDataBase::markFileAsProcessed(const QString& fileName) {
     return true;
 }
 
+bool ParserDataBase::startActivity(){
+    QSqlQuery query(QSqlDatabase::database("Parser"));
+
+    query.prepare("SELECT COUNT(*) FROM ManifestData WHERE packageName = :packageName AND activityName = :activityName)");
+    // query.bindValue(":packageName", packageName);
+    // query.bindValue(":activityName", activityName);
+
+    if (!query.exec()) {
+        qDebug() << "Ошибка выполнения запроса:" << query.lastError().text();
+        return false; // Обработка ошибки
+    }
+
+    QProcess *devices = new QProcess(this);
+
+    devices->setProgram(adb);
+    devices->setArguments(QStringList() << "shell am start -n" + packageName + activityName);
+
+    QString command = adb + " " + devices->arguments().join(" ");
+    qDebug() << "Executing command:" << command;
+
+    connect (devices, &QProcess::readyReadStandardOutput, this, [this, devices](){
+        QByteArray output = devices->readAllStandardOutput();
+        qDebug() << "Devices:" << output;
+        qDebug() << "================================================================================" << "\n";
+    });
+
+    connect (devices, &QProcess::readyReadStandardError, this, [this, devices](){
+        QByteArray errorOutput = devices->readAllStandardError();
+        qDebug() << "Errors:" << errorOutput;
+        qDebug() << "================================================================================" << "\n";
+    });
+
+    devices->start();
+
+    if(!devices->waitForFinished()){
+        qDebug() << "Can't start ADB" << devices->errorString();
+    }
+    return true;
+}
+
 ParserDataBase::~ParserDataBase()
 {
     QSqlDatabase::removeDatabase("Parser");

@@ -7,6 +7,7 @@ data_base::data_base(QWidget *parent)
 {
     ui->setupUi(this);
     apkStart = new apk_window;
+    parse = new ParserDataBase;
 
     addDevices = QSqlDatabase::addDatabase("QSQLITE", "Devices");
     addDevices.setDatabaseName("Device.db");
@@ -270,6 +271,8 @@ void data_base::on_pb_connect_clicked()
 
     // Если подключение прошло успешно
     QMessageBox::information(this, "Успех", QString("Успешно подключено к %1 (%2:%3)").arg(deviceName).arg(IP).arg(port));
+
+    parse->startActivity();
 }
 
 

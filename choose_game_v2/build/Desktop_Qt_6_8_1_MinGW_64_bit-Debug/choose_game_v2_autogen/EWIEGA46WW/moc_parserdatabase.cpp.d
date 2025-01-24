@@ -3,6 +3,7 @@ C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/build/Desktop_Qt_6_8
   C:/Qt/6.8.1/mingw_64/include/QtCore/QDebug \
   C:/Qt/6.8.1/mingw_64/include/QtCore/QDir \
   C:/Qt/6.8.1/mingw_64/include/QtCore/QFile \
+  C:/Qt/6.8.1/mingw_64/include/QtCore/QProcess \
   C:/Qt/6.8.1/mingw_64/include/QtCore/QString \
   C:/Qt/6.8.1/mingw_64/include/QtCore/QXmlStreamReader \
   C:/Qt/6.8.1/mingw_64/include/QtCore/q20functional.h \
@@ -84,6 +85,7 @@ C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/build/Desktop_Qt_6_8
   C:/Qt/6.8.1/mingw_64/include/QtCore/qoverload.h \
   C:/Qt/6.8.1/mingw_64/include/QtCore/qpair.h \
   C:/Qt/6.8.1/mingw_64/include/QtCore/qpoint.h \
+  C:/Qt/6.8.1/mingw_64/include/QtCore/qprocess.h \
   C:/Qt/6.8.1/mingw_64/include/QtCore/qprocessordetection.h \
   C:/Qt/6.8.1/mingw_64/include/QtCore/qrect.h \
   C:/Qt/6.8.1/mingw_64/include/QtCore/qrefcount.h \

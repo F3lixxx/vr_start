@@ -444,6 +444,8 @@ CMakeFiles/choose_game_v2.dir/parserdatabase.cpp.obj: \
  C:/Qt/6.8.1/mingw_64/include/QtSql/qsqlerror.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/QDebug \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qdebug.h \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/QProcess \
+ C:/Qt/6.8.1/mingw_64/include/QtCore/qprocess.h \
  C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/choose_game_v2_autogen/include/ui_parserdatabase.h \
  C:/Qt/6.8.1/mingw_64/include/QtCore/QVariant \
  C:/Qt/6.8.1/mingw_64/include/QtCore/qvariant.h \

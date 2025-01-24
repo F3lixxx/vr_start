@@ -364,6 +364,9 @@ C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/apk_window.h
  mdp:C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h
  mdp:C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/apk_window.h
  mdp:C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/choose_game_v2_autogen/moc_predefs.h
+C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/mainwindow.cpp
+ uic:./ui_mainwindow.h
+C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/main.cpp
 C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/data_base.h
  mmc:Q_OBJECT
  mdp:C:/Qt/6.8.1/mingw_64/include/QtCore/QByteArray
@@ -807,9 +810,8 @@ C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/data_base.h
  mdp:C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/connectdev.h
  mdp:C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/data_base.h
  mdp:C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/parserdatabase.h
-C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/main.cpp
-C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/mainwindow.cpp
- uic:./ui_mainwindow.h
+C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/data_base.cpp
+ uic:ui_data_base.h
 C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/mainwindow.h
  mmc:Q_OBJECT
  mdp:C:/Qt/6.8.1/mingw_64/include/QtCore/QByteArray
@@ -1494,13 +1496,14 @@ C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/mainwindow.h
  mdp:C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/data_base.h
  mdp:C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/mainwindow.h
  mdp:C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/parserdatabase.h
-C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/data_base.cpp
- uic:ui_data_base.h
+C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/apk_window.cpp
+ uic:ui_apk_window.h
 C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/parserdatabase.h
  mmc:Q_OBJECT
  mdp:C:/Qt/6.8.1/mingw_64/include/QtCore/QDebug
  mdp:C:/Qt/6.8.1/mingw_64/include/QtCore/QDir
  mdp:C:/Qt/6.8.1/mingw_64/include/QtCore/QFile
+ mdp:C:/Qt/6.8.1/mingw_64/include/QtCore/QProcess
  mdp:C:/Qt/6.8.1/mingw_64/include/QtCore/QString
  mdp:C:/Qt/6.8.1/mingw_64/include/QtCore/QXmlStreamReader
  mdp:C:/Qt/6.8.1/mingw_64/include/QtCore/q20functional.h
@@ -1582,6 +1585,7 @@ C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/parserdatabase.h
  mdp:C:/Qt/6.8.1/mingw_64/include/QtCore/qoverload.h
  mdp:C:/Qt/6.8.1/mingw_64/include/QtCore/qpair.h
  mdp:C:/Qt/6.8.1/mingw_64/include/QtCore/qpoint.h
+ mdp:C:/Qt/6.8.1/mingw_64/include/QtCore/qprocess.h
  mdp:C:/Qt/6.8.1/mingw_64/include/QtCore/qprocessordetection.h
  mdp:C:/Qt/6.8.1/mingw_64/include/QtCore/qrect.h
  mdp:C:/Qt/6.8.1/mingw_64/include/QtCore/qrefcount.h
@@ -1926,7 +1930,5 @@ C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/parserdatabase.h
  mdp:C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wctype.h
  mdp:C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/choose_game_v2_autogen/moc_predefs.h
  mdp:C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/parserdatabase.h
-C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/apk_window.cpp
- uic:ui_apk_window.h
 C:/Users/User/Documents/QT_Projects/vr_start/choose_game_v2/parserdatabase.cpp
  uic:ui_parserdatabase.h
